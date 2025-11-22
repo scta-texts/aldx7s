@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2</title>
+        <author ref="#Augustine">Augustine</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2</title>
+          <date when="2025-11-22">November 22, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-xci32P">PL 32</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-11-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="620"/>
+        <cb ed="#P" n="c"/><!-- starts on column 1221 -->
+        <!--https://www.documentacatholicaomnia.eu/02m/0354-0430,_Augustinus,_De_Libero_Arbitrio,_MLT.pdf-->
+      </div>
+    </front>
+    <body>
+      <div xml:id="aldx7s-x1ez62">
+        <head xml:id="aldx7s-x1ez62-Hd1e102">Liber 2</head>
+        <p xml:id="aldx7s-x1ez62-d1e104">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="93"/>LIBER SECUNDUS.
+        </p>
+        <p xml:id="aldx7s-x1ez62-d1e111">
+          <lb ed="#P" n="94"/>In quo, difficultate ex eo quod libertas, qua peccatur, a Deo data sit emergente, tria haec disquiruntur: Qua ratione
+          <lb ed="#P" n="95"/>Deum esse manifestum sit; en ab ipso sint bona quecumque; utrum in bonis censenda sit libera voluntas.
+        </p>
+        <div xml:id="aldx7s-x1ez62-Dd1e118">
+          <head xml:id="aldx7s-x1ez62-Hd1e120">Caput 1</head>
+          <p xml:id="aldx7s-x1ez62-d1e122">
+            <cb ed="#P" n="d"/>
+            <lb ed="#P" n="96"/>CAPUT PRIMUM. — Libertas, qua peccatur, cur a Deo
+            <lb ed="#P" n="97"/>data.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e131" n="1">
+            <lb ed="#P" n="98"/>E. Iam, si fieri potest, explica mihi quare dede-
+            <lb ed="#P" n="99"/>rit Deus homini liberum voluntatis arbitrium : quod
+            <cb ed="#P" n="e"/>
+            <lb ed="#P" n="100"/>utique si non accepisset, peccare non posset. A. Jam
+            <lb ed="#P" n="101"/>enim certum tibi atque cognitum est, Deum dedise
+            <lb ed="#P" n="102"/>homini hoc, quod dari decuisse non putas? E. Quar-
+            <lb ed="#P" n="103"/>tum in superior libro intelligere mihi visus sum, e
+            <lb ed="#P" n="104"/>habemus liberum voluntatis arbitrium, et non nisi e
+            <pb ed="#L" n="621"/>
+            <cb ed="#P" n="a"/>
+            <!--1241-->
+            <lb ed="#P" n="1"/>peccamus. A. Ego quoque memini jam nobis id fa-
+            <lb ed="#P" n="2"/>ctum esse perspicuum. Sed nunc interrogavi utrum
+            <lb ed="#P" n="3"/>boc quod nos habere, et quod nos peccare manifestum
+            <lb ed="#P" n="4"/>est, Deum nobis dedisse scias. E. Nullum alium puto.
+            <lb ed="#P" n="5"/>Ab ipso enim sumus; et sive peccantes, sive recte
+            <lb ed="#P" n="6"/>agentes, ab illo poonam meremur aut praemium.
+            <lb ed="#P" n="7"/>A. Hoc quoque utrum liquido noveris, an auctoritate
+            <lb ed="#P" n="8"/>commotus libenter etiam incognitum credas, cupio
+            <lb ed="#P" n="9"/>scire. E. Auctoritati quidem me primum de hac re
+            <lb ed="#P" n="10"/>credidisse confirmo. Sed quid verius quam omne bo-
+            <lb ed="#P" n="11"/>num ex Deo esse, et omne justum bonum esse, et pec-
+            <lb ed="#P" n="12"/>cantibus ponam recteque facientibus praemium ju-
+            <lb ed="#P" n="13"/>stum esse ? Ex quo conficitur a Deo affici, et peccan-
+            <lb ed="#P" n="14"/>tes miseris, et recte facientes beatitate.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e188" n="2">
+            <lb ed="#P" n="15"/>A. Nihil resisto ; sed quaero illud alterum, quo-
+            <lb ed="#P" n="16"/>modo noveris nos ab ipso esse. Neque enim hoc nunc,
+            <lb ed="#P" n="17"/>sed ab ipso nos vel poenam, vel praemium mereri
+            <lb ed="#P" n="18"/>explicasti. E. Hoc quoque non aliunde video esse ma-
+            <lb ed="#P" n="19"/>nifestum, nisi quod jam constat Deum vindicare pec-
+            <lb ed="#P" n="20"/>cata. Siquidem ab illo estomnisjustitia. Non enim ut
+            <lb ed="#P" n="21"/>alicujus estbonitatisalienis praestarebeneficia ita justi-
+            <lb ed="#P" n="22"/>tise vindicare in alienos. Unde manifestum est ad eum
+            <lb ed="#P" n="23"/>nos pertinere, quianon solum in nos benignissimusin
+            <lb ed="#P" n="24"/>prasstando, sed etiam justissimus in vindicando est.
+            <lb ed="#P" n="25"/>Deinde ex eo quod ego posui, tuqueconcessisti, omne
+            <lb ed="#P" n="26"/>bonum ex Deo esse, etiam hominem ex Deo esse intelligi
+            <lb ed="#P" n="27"/>potest. Homo enim ipse in quantum homo est aliquod
+            <lb ed="#P" n="28"/>bonum est ; quia recte vivere, cum vult, potest (a).
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e221" n="3">
+            <lb ed="#P" n="29"/>A. Plane si haec ita sunt, soluta quastio est quam
+            <lb ed="#P" n="30"/>proposuisti. Si enim homo aliquod bonum est, et non
+            <lb ed="#P" n="31"/>posset, nisi cum vellet, recte facere, debuit habere
+            <lb ed="#P" n="32"/>liberam voluntatem, sine qua recte facere non posset.
+            <lb ed="#P" n="33"/>Non enim quia per illam etiam peccatur, ad hoc eam
+            <lb ed="#P" n="34"/>Denum dedissecredendum est. Satis ergo causa est cur
+            <lb ed="#P" n="35"/>dari debuerit, quoniam sine illa homo recte non po-
+            <lb ed="#P" n="36"/>test vivere. Ad hoc autem datam vel hinc intelligi po-
+            <lb ed="#P" n="37"/>test, quia si quis ea usus fuerit ad peccandum, divi-
+            <lb ed="#P" n="38"/>nitus in eum vindicatur. Quod injuste fieret, si non
+            <lb ed="#P" n="39"/>solum ut recte viveretur, sed etiam ut peccaretur,
+            <lb ed="#P" n="40"/>libera esset voluntas data. Quomodo enim juste vin-
+            <lb ed="#P" n="41"/>dicaretur in eum, qui ad hanc rem usus esset volun-
+            <lb ed="#P" n="42"/>tate, ad quam rem data est? Nunc vero Deus cum
+            <lb ed="#P" n="43"/>peccantem punit, quid videtur tibi aliud dicere nisi,
+            <lb ed="#P" n="44"/>Cur non ad eam rem usus es libera voluntate, ad
+            <lb ed="#P" n="45"/>quam tibi eam dedi, hoc est ad recte faciendum?
+            <lb ed="#P" n="46"/>Deinde illud bonum, quo commendatur ipsa justitiu
+            <lb ed="#P" n="47"/>in damnandis peccatis recteque factis honorandis,
+            <lb ed="#P" n="48"/>quomodo esset, si homo careret libero voluntatis ar-
+            <lb ed="#P" n="49"/>bitrio ? Non enim aut peccatum esset, aut recte fa-
+            <lb ed="#P" n="50"/>ctum, quod non fieret voluntate. Ac per hoc et pona
+            <lb ed="#P" n="51"/>injusta esset et praemium, si homo voluntatem non
+            <lb ed="#P" n="52"/>haberet liberam. Debuit autem et in supplicio, et in
+            <lb ed="#P" n="53"/>preemio essejustitia; quoniam hoc unum est bonorum
+            <lb ed="#P" n="54"/>quae sunt ex Deo. Debuit igitur Deus dare homini li-
+            <lb ed="#P" n="55"/>beram voluntatem.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e283">
+          <head xml:id="aldx7s-x1ez62-Hd1e285">Caput 2</head>
+          <p xml:id="aldx7s-x1ez62-d1e287">
+            <lb ed="#P" n="56"/>CAPUT II. — Objectio : Liberum arbitrium, si ad
+            <lb ed="#P" n="57"/>bonum datum est, quomodo ad malum fuexile.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e294" n="4">
+            <lb ed="#P" n="58"/>E. Jam concedo eam Deum dedisse. Sed nonne
+            <cb ed="#P" n="b"/>
+            <!--1242-->
+            <lb ed="#P" n="59"/>tibi videtur, quaeso te, si ad recte faciendum data est,
+            <lb ed="#P" n="60"/>quod non debuerit ad peccandum posse converti? sic
+            <lb ed="#P" n="61"/>ut ipsa justitia quae data est homipi ad bene viven-
+            <lb ed="#P" n="62"/>dum : numquid enim potest quispiam per justitiam
+            <lb ed="#P" n="63"/>suam male vivere? Sic nemo posset per voluntatem
+            <lb ed="#P" n="64"/>peccare, si voluntas data esset ad recte faciendum.
+            <lb ed="#P" n="65"/>A. Donabit quidem Dens, ut spero, ut tibi valeam re-
+            <lb ed="#P" n="66"/>spondere, vel potius ut ipse tibi eadem, quae summa
+            <lb ed="#P" n="67"/>omnium magistra est veritate intus docente respon-
+            <lb ed="#P" n="68"/>Geas. Sed paulisper mibi volo dicas,si id quod abs te
+            <lb ed="#P" n="69"/>quaesiveram, certum et cognitum tenes, Deum nobis
+            <lb ed="#P" n="70"/>dedisse liberam voluntatem, utrum oporteat dicere
+            <lb ed="#P" n="71"/>dari non debuisse, quod dedisse confitemur Deum.
+            <lb ed="#P" n="72"/>Si enim incertum est utrum dederit, recte quaerimus
+            <lb ed="#P" n="73"/>utrum bene sit data, ut cum invenerimus bene datam
+            <lb ed="#P" n="74"/>esse, inveniatur etiam illum dedisse, a quo homini
+            <lb ed="#P" n="75"/>data sunt omnia bona : si autem invenerimus non
+            <lb ed="#P" n="76"/>bene datam esse, non eumdedisse intelligamus, quem
+            <lb ed="#P" n="77"/>culpare nefas est. Si vero certum est quod ipse illam
+            <lb ed="#P" n="78"/>dederit, oportet fateamur, quoquo modo data est, ne-
+            <lb ed="#P" n="79"/>que non dari, neque aliter dari eam debnisse quam
+            <lb ed="#P" n="80"/>data est. Ille enim dedit, cujus factum recte repre-
+            <lb ed="#P" n="81"/>hendi nullo pacto potest.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e353" n="5">
+            <lb ed="#P" n="82"/>E. Quanquam haec inconcussa fide teneam, ta-
+            <lb ed="#P" n="83"/>men quia cognitione nondum teneo, ita quaeramus
+            <lb ed="#P" n="84"/>quasi omnia incerta sint. Video enim ex hoc quod in-
+            <lb ed="#P" n="85"/>certum est, utrum ad recte faciendum voluntas libera
+            <lb ed="#P" n="86"/>data sit, cum per illam etiam peccare possimus, fleri
+            <lb ed="#P" n="87"/>etiam illud incertum, utrum dari debuerit. Si enim
+            <lb ed="#P" n="88"/>incertum est ad recte faciendum datam esse, incer-
+            <lb ed="#P" n="89"/>tum est etiam dari debuisse : ac per hoc etiam utrum
+            <lb ed="#P" n="90"/>eam Deum dederit, incertum erit; quia si incertum
+            <lb ed="#P" n="91"/>est dari debuisse, incertum est ab eo datam esse,
+            <lb ed="#P" n="92"/>quem nefas est credere dedisse aliquid quod dari non
+            <lb ed="#P" n="93"/>debuit. A. Illud saltem tibi certum est, Deum esse.
+            <lb ed="#P" n="94"/>E. Etiam hoc non contemplando, sed credendo incon-
+            <lb ed="#P" n="95"/>cussum teneo. A. Siquis ergo illorum insipientium,
+            <lb ed="#P" n="96"/>de quibus scriptum est, Dixit insipiens in corde suo,
+            <lb ed="#P" n="97"/>Non est Deus (Psal. u, 1), hoc tibi diceret, nec vel-
+            <lb ed="#P" n="98"/>let tecum credere quod credis, sed cognoscere utrum
+            <lb ed="#P" n="99"/>vera credideris ; relinqueresne hominem, an aliquo
+            <lb ed="#P" n="100"/>modo, quod inconcussum tenes, persuadendum esse
+            <lb ed="#P" n="101"/>arbitrareris; praesertim si illenon obluctari pervicaci-
+            <lb ed="#P" n="102"/>ter, sed studiose id vellet agnoscere? E. Hoc quod
+            <lb ed="#P" n="103"/>ultimum posuisti, satis me admonet quid ei respon-
+            <lb ed="#P" n="104"/>dere deberem. Certe enim quamvis esset absurdissi-
+            <lb ed="#P" n="105"/>mus, concederet mihi, cum doloso et pervicaci de
+            <lb ed="#P" n="106"/>nulla omnino et marime de re tanta, non esse disse-
+            <lb ed="#P" n="107"/>rendum. Quo concesso, prior mecum ageret, ut sibi
+            <lb ed="#P" n="108"/>crederem bono animo eum istuc quaerere, neque ali-
+            <lb ed="#P" n="109"/>quid in se, quod ad rem hanc attinet, doli ac pervi
+            <lb ed="#P" n="110"/>cacie latere. Tum ego demonstrarem, quod cuivis
+            <lb ed="#P" n="111"/>facillimum puto, quanto esset aequius, cum sibi de
+            <lb ed="#P" n="112"/>occultis animi sui quae ipse nosset, vellet alterum cre-
+            <lb ed="#P" n="113"/>dere qui non nosset, ut etiam ipse tantorum virorum
+            <lb ed="#P" n="114"/>Libris, qui se cum Filio Dei vixisse testatum Litteris
+            <lb ed="#P" n="115"/>reliquerunt, esse Deum crederet; quia et ea se vi-
+            <lb ed="#P" n="116"/>disse scripserunt, quae nullo modo fieri possent, si
+            <pb ed="#L" n="622"/>
+            <cb ed="#P" n="a"/>
+            <!--1243-->
+            <lb ed="#P" n="1"/>non esset Deus ; et nimium stultus esset, si me re-
+            <lb ed="#P" n="2"/>prehenderet quod illis crediderim, qui sibi vellet ut
+            <lb ed="#P" n="3"/>crederem. Jam vero quod recte reprehendere non va-
+            <lb ed="#P" n="4"/>leret, nullo modo reperiret cur etiam nollet imitari.
+            <lb ed="#P" n="5"/>A. Si ergo utrum sit Deus, satis esse existimas, quod
+            <lb ed="#P" n="6"/>non temere tantis viris credendum esse judicavimus :
+            <lb ed="#P" n="7"/>cur non, quaeso te, de iis quoque rebus, quas tan-
+            <lb ed="#P" n="8"/>quam incertas et plane incognitas quaerere instituimus,
+            <lb ed="#P" n="9"/>similiter putas eorumdem virorum auctoritati sic esse
+            <lb ed="#P" n="10"/>credendum, ut de investigatione earum nihil amplius
+            <lb ed="#P" n="11"/>laboremus ? E. Sed nos id quod credimus, nosse et
+            <lb ed="#P" n="12"/>intelligere cupimus.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e464" n="6">
+            <lb ed="#P" n="13"/>A. Recte meministi, quod etiam in exordio su-
+            <lb ed="#P" n="14"/>perioris disputationis a nobis positum esse (Lib. 1,
+            <lb ed="#P" n="15"/>cap. 2), negare non possumus. Nisi enim aliud esset
+            <lb ed="#P" n="16"/>credere, et aliud intelligere, et primo credendum es-
+            <lb ed="#P" n="17"/>set, quod magnum et divinum intelligere cuperemus,
+            <lb ed="#P" n="18"/>frustra propheta dixisset, Nisi credideritis, non intel-
+            <lb ed="#P" n="19"/>ligetis (Isai. vu, 9, sec. LXX). Ipse quoque Dominus
+            <lb ed="#P" n="20"/>noster et dictis et factis ad credendum primo horta-
+            <lb ed="#P" n="21"/>tus est, quos ad salutem vocavit. Sed postea cum de
+            <lb ed="#P" n="22"/>ipso dono loqueretur, quod erat daturus credentibus,
+            <lb ed="#P" n="23"/>non ait, Haec est autem vita seterna ut credant; sed,
+            <lb ed="#P" n="24"/>Hac est, inquit vita aterna, ut cognoscant te solum
+            <lb ed="#P" n="25"/>Deum verum, et quem misisti Jesum Christum (Joan.
+            <lb ed="#P" n="26"/>xvn, 3). Deinde jam credentibus dicit, Quarite et
+            <lb ed="#P" n="27"/>invenietis (Matth. vii, 7): nam neque inventum dici
+            <lb ed="#P" n="28"/>potest, quod incognitum creditur ; neque quisquam
+            <lb ed="#P" n="29"/>inveniendo Deo fit idoneus, nisi antea crediderit quod
+            <lb ed="#P" n="30"/>est postea cogniturus. Quapropter Domini praeptis
+            <lb ed="#P" n="31"/>obtemperantes quaeramus instanter. Quod enim hor-
+            <lb ed="#P" n="32"/>tante ipso quaerimus, eodem ipso demonstrante in-
+            <lb ed="#P" n="33"/>veniemus, quantum haec in hac vita, et a nobistalibus
+            <lb ed="#P" n="34"/>inveniri queunt : nam et a melioribus etiam dum has
+            <lb ed="#P" n="35"/>terras incolunt, et certe a bonis et piis omnibus post
+            <lb ed="#P" n="36"/>hanc vitam, evidentius atque perfectius ista cerni ob-
+            <lb ed="#P" n="37"/>tinerique credendum est; et nobis ita fore speran-
+            <lb ed="#P" n="38"/>dum est, et ista contemptis terrenis et humanis,
+            <lb ed="#P" n="39"/>omni modo desideranda et diligenda sunt.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e527">
+          <head xml:id="aldx7s-x1ez62-Hd1e529">Caput 3</head>
+          <p xml:id="aldx7s-x1ez62-d1e531">
+            <lb ed="#P" n="40"/>CAPUT III. — Deum esse ut manifestum evadat, dis-
+            <lb ed="#P" n="41"/>quirit quid sit in homine prastantissimum.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e538" n="7">
+            <lb ed="#P" n="42"/>Quaeramus autem hoc ordine, si placet ; primum,
+            <lb ed="#P" n="43"/>quomodo manifestum est Deum esse; deinde, utrum
+            <lb ed="#P" n="44"/>ab illo sint quaecumque in quantumcumque sunt
+            <lb ed="#P" n="45"/>bona; postremo, utrum in bonis numeranda sit vo-
+            <lb ed="#P" n="46"/>luntas libera. Quibus compertis satis apparebit, ut
+            <lb ed="#P" n="47"/>opinor, utrum recte homini data sit. Qnare prius abs
+            <lb ed="#P" n="48"/>te quaero, ut de manifestissimis capiamus exordium ;
+            <lb ed="#P" n="49"/>utrum tu ipse sis. An tu fortasse metuis, ne in hac
+            <lb ed="#P" n="50"/>interrogatione fallaris, cum utique si non esses, falli
+            <lb ed="#P" n="51"/>omnino non posses? E. Perge potius ad ceetera. A
+            <lb ed="#P" n="52"/>Ergo quoniam manifestum est esse te, nec tibi aliter
+            <lb ed="#P" n="53"/>manifestum esset, nisi viveres, id quoque manifestum
+            <lb ed="#P" n="54"/>est, vivere te: intelligisne ista duo esse verissima?
+            <lb ed="#P" n="55"/>E. Prorsus intelligo. A. Ergo etiam hoc tertium ma-
+            <lb ed="#P" n="56"/>nifestum est, hoc est intelligere te. E. Manifestum.
+            <lb ed="#P" n="57"/>A. Quid in his tribus tibi videtur excellere? E. Intel-
+            <lb ed="#P" n="58"/>ligentia. A. Cur tibi hoc videtur ? E. Quia cum tria
+            <lb ed="#P" n="59"/>sint haec, esse, vivere, intelligere; et lapis est, et
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="60"/>pecus vivit, nec tamen lapidem puto vivere, aut pe
+            <lb ed="#P" n="61"/>cus intelligere ; qui autem intelligit, eum et essee
+            <lb ed="#P" n="62"/>vivere, certissimum est : quare non dubito id excel
+            <lb ed="#P" n="63"/>lentius judicare, cui omnia tria insunt, quam id ca
+            <lb ed="#P" n="64"/>duo vel unum desit. Nam quod vivit, utique et es,
+            <lb ed="#P" n="65"/>sed non sequitur ut etiam intelligat : qualem vitu
+            <lb ed="#P" n="66"/>esse pecoris arbitror. Quod autem est, non utiqu
+            <lb ed="#P" n="67"/>consequens est ut et vivat et intelligat : nam ese
+            <lb ed="#P" n="68"/>cadavera possum fateri, vivere autem nullus dixerit,
+            <lb ed="#P" n="69"/>Iamvero quod nonvivit, multo minus intelligit. ATe-
+            <lb ed="#P" n="70"/>nemus igitur horum trium duo deesse cadaveri, unua
+            <lb ed="#P" n="71"/>pecori, nihil homini. E. Verum est. A. Tenemu
+            <lb ed="#P" n="72"/>etiam id esse in his tribus prasstantius, quod home
+            <lb ed="#P" n="73"/>cum duobus caeteris habet, id est intelligere, quoi
+            <lb ed="#P" n="74"/>habentem sequitur et esse et vivere. E. Tenemussane
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e614" n="8">
+            <lb ed="#P" n="75"/>A. Dic mihi jam utrum illos vulgatissimos cor-
+            <lb ed="#P" n="76"/>poris sensus habere te noveris, videndi, et audiendi
+            <lb ed="#P" n="77"/>et olfaciendi, et gustandi, et tangendi. E. Nori.4.
+            <lb ed="#P" n="78"/>Quid putas pertinere ad videndi sensum ? id est, qui
+            <lb ed="#P" n="79"/>putas nos videndo sentire? E. Quecumque corpon-
+            <lb ed="#P" n="80"/>lia, A. Num etiam dura et mollia videndo sentimus*
+            <lb ed="#P" n="81"/>E. Non. A. Quid ergo proprie ad oculos pertine,
+            <lb ed="#P" n="82"/>quod per eos sentimus? E. Color. A. Quid ad aure?
+            <lb ed="#P" n="83"/>E. Sonus. A. Quid ad olfactum? E. Odor. A. Qui
+            <lb ed="#P" n="84"/>ad gustum ? E. Sapor. A. Quid ad tactum? E. Mole
+            <lb ed="#P" n="85"/>vel durum, lene vel asperum, et multa talia. A. Qui
+            <lb ed="#P" n="86"/>corporum formas, magnas, breves, quadras, rotun
+            <lb ed="#P" n="87"/>das, et si quid hujusmodi est, nonne et tangendo &amp;
+            <lb ed="#P" n="88"/>videndo sentimus, et ideo nec visui proprie, nec u-
+            <lb ed="#P" n="89"/>ctui tribui possunt, sed utrique? E. Intelligo. A. -
+            <lb ed="#P" n="90"/>telligis ergo et quaedam singulos sensus habere pn-
+            <lb ed="#P" n="91"/>pria, de quibus renuntient, et quaedam quosdu
+            <lb ed="#P" n="92"/>habere communia? E. Ethocintelligo. A. Quid igiur
+            <lb ed="#P" n="93"/>ad quemque sensum pertineat, et quid inter ses
+            <lb ed="#P" n="94"/>omnes vel quidam eorum communiter habeant, nun
+            <lb ed="#P" n="95"/>possumus ullo eorum sensu dijudicare? E. Nulh
+            <lb ed="#P" n="96"/>modo, sed quodaminteriore ista dijudicantur. A. Num
+            <lb ed="#P" n="97"/>fortasse ipsa est ratio, qua bestie carent? nam, u
+            <lb ed="#P" n="98"/>opinor, ratione ista comprehendimus, et ita seseha-
+            <lb ed="#P" n="99"/>bere coguoscimus. E. Magis nos arbitror ratione com-
+            <lb ed="#P" n="100"/>prehendere esse interiorem quemdam sensum, ad
+            <lb ed="#P" n="101"/>quem ab istis quinque notissimis cuncta referantur.
+            <lb ed="#P" n="102"/>Nanque aliud est quo videt bestia, aliud quo ea que
+            <lb ed="#P" n="103"/>videndo sentit, vel vitat vel appetit : ille enim senszs
+            <lb ed="#P" n="104"/>in oculis est, ille autem intus in ipsa anima; qu
+            <lb ed="#P" n="105"/>non solum ea qua videntur, sed etiam quae audiuntu,
+            <lb ed="#P" n="106"/>quasque caeteris capiuntur corporis sensibus, vel ap-
+            <lb ed="#P" n="107"/>petunt animalia delectata et assumunt, vel offensa de
+            <lb ed="#P" n="108"/>vitant et respuunt. bic autem nec visus, nec auditus
+            <lb ed="#P" n="109"/>nec olfactus, nec gustatus, nec tactus dici potes
+            <lb ed="#P" n="110"/>sed nescio quid aliud quod omnibus communiter pre
+            <lb ed="#P" n="111"/>sidet. Quod cum ratione conprehendamus, ut dix,
+            <lb ed="#P" n="112"/>hoc ipsum tamen rationem vocare non possum; qoo-
+            <lb ed="#P" n="113"/>niam et bestiis inesse manifestum est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e701" n="9">
+            <lb ed="#P" n="114"/>A. Agnosco istud quidquid est, et eum interio
+            <lb ed="#P" n="115"/>rem sensum appellare non dubito. Sed nisi et istum
+            <lb ed="#P" n="116"/>transeat, quod ad nos refertur a sensibus corporis
+            <lb ed="#P" n="117"/>pervenire ad scientiam non potest. Quidquid enin
+            <lb ed="#P" n="118"/>scimus, id ratione comprehensum tenemus. Scimus
+            <pb ed="#L" n="623"/>
+            <cb ed="#P" n="a"/>
+            <!--1245-->
+            <lb ed="#P" n="1"/>autem, ut de caeteris taceam, nec colores auditu, nec
+            <lb ed="#P" n="2"/>voces visu posse sentiri. Et cum hoc scimus, nec ocu-
+            <lb ed="#P" n="3"/>lis, nec auribus scimus, neque illo sensu interiore,
+            <lb ed="#P" n="4"/>quo nec bestise carent. Non enim credendum est eas
+            <lb ed="#P" n="5"/>nosse, nec auribus sentiri lucem, nec oculis vocem ;
+            <lb ed="#P" n="6"/>quoniam ista nonnisi rationali animadversione et co-
+            <lb ed="#P" n="7"/>gitatione discernimus. E. Non possum dicere hoc me
+            <lb ed="#P" n="8"/>habere perceptum. Quid si enim sensu illo interiore,
+            <lb ed="#P" n="9"/>quo eas non carere concedis, hoc quoque dijudicant,
+            <lb ed="#P" n="10"/>nec colores auditu nec visu voces posse sentiri? A.
+            <lb ed="#P" n="11"/>Num etiam putas ea posse discernere, ab invicem
+            <lb ed="#P" n="12"/>colorem qui sentitur, et sensum qui in oculo est, et
+            <lb ed="#P" n="13"/>interiorem illum sensum apud animam, et rationem
+            <lb ed="#P" n="14"/>qua ista singillatim definiuntur et dinumerantur? E.
+            <lb ed="#P" n="15"/>Nullo modo. A. Quid? ista ratio posset haec quatuor
+            <lb ed="#P" n="16"/>discernere ab invicem et definitionibus terminare,
+            <lb ed="#P" n="17"/>nisi ad eam referretur et color per oculorum sensum,
+            <lb ed="#P" n="18"/>et ipse rursus per illum interiorem qui ei praesidet,
+            <lb ed="#P" n="19"/>et idem interior per seipsum, si tamen jam nihil aliud
+            <lb ed="#P" n="20"/>interpositum est? E. Non video quomodo aliter pos-
+            <lb ed="#P" n="21"/>set. A. Quid? hoc videsne, sensu oculorum colorem
+            <lb ed="#P" n="22"/>sentiri, eumdem autem sensum eodem sensu non
+            <lb ed="#P" n="23"/>sentiri? Non enim quo sensu colorem vides, hoc
+            <lb ed="#P" n="24"/>eodem vides etiam ipsum videre. E. Non omuino.
+            <lb ed="#P" n="25"/>A. Enitere etiam ista dijudicare: nam credo te non
+            <lb ed="#P" n="26"/>negere aliud colorem esse, et aliud colorem videre, et
+            <lb ed="#P" n="27"/>item aliud etiam, cum color non subest, habere sensum
+            <lb ed="#P" n="28"/>quo videri posset, si subesset. E. Discerno et ista,
+            <lb ed="#P" n="29"/>et inter se differre concedo. A. Num horum trium
+            <lb ed="#P" n="30"/>quidquam vides oculis, nisi colorem? E. Nihil aliud.
+            <lb ed="#P" n="31"/>A. Dic ergo unde videas alia duo ; non enim ea non
+            <lb ed="#P" n="32"/>visa posses discernere. E. Nescio quid aliud; esse
+            <lb ed="#P" n="33"/>scio, nihil amplius. A. Nescis igitur utrum jam
+            <lb ed="#P" n="34"/>ipsa sit ratio, an illa vita sit quam sensum interiorem
+            <lb ed="#P" n="35"/>vocamus praecellentem sensibus corporis, an aliquid
+            <lb ed="#P" n="36"/>aliud? E. Nescio. A.Illud tamen scis, ea definiri
+            <lb ed="#P" n="37"/>nisi ratione non posse; neque rationem id facere, nisi
+            <lb ed="#P" n="38"/>de iis qua sibi examinanda offeruntur. E. Certum est.
+            <lb ed="#P" n="39"/>A. Quidquid igitur est aliud quo sentiri potest omne
+            <lb ed="#P" n="40"/>quod scimus, ministerium rationis est, cui offert et
+            <lb ed="#P" n="41"/>renuntiat quidquid attingit, ut ea quae sentiuntur
+            <lb ed="#P" n="42"/>discerni suis finibus possint, et non sentiendo tantum,
+            <lb ed="#P" n="43"/>sed etiam sciendo comprehendi. E. Ita est. A. Quid?
+            <lb ed="#P" n="44"/>ipsa ratio quae ministros suos, et ea quae suggerunt,
+            <lb ed="#P" n="45"/>discernit ab invicem, et item quid inter hac et
+            <lb ed="#P" n="46"/>seipsam distet, agnoscit, seque illis praepotentiorem
+            <lb ed="#P" n="47"/>esse confirmat ; num alia re seipsam nisi seipsa, id
+            <lb ed="#P" n="48"/>est ratione comprehendit ? an aliter scires te habere
+            <lb ed="#P" n="49"/>rationem, nisi id ratione perciperes ? E. Verisi-
+            <lb ed="#P" n="50"/>znum est. A. Quoniam ergo cum colorem sentimus,
+            <lb ed="#P" n="51"/>non itidemn sensu ipsa nos sentire etiam sentimus;
+            <lb ed="#P" n="52"/>neque cum audimus sonum, nostrum etiam audimus
+            <lb ed="#P" n="53"/>auditum ; neque cum olfacimus rosam, olet nobis ali-
+            <lb ed="#P" n="54"/>quid et ipse olfactus; neque quidquam gustantibus
+            <lb ed="#P" n="55"/>sapit in ore ipse gustus; nec tangentes aliquid, ipsum
+            <lb ed="#P" n="56"/>etiam tangendi sensum possumus tangere : manife-
+            <cb ed="#P" n="b"/>
+            <!--1246-->
+            <lb ed="#P" n="57"/>stum est quinque istos sensus nullo eorum sensu
+            <lb ed="#P" n="58"/>posse sentiri, quamvis eis corporalia quaeque sen-
+            <lb ed="#P" n="59"/>tiantur. E. Manifestum est.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e854">
+          <head xml:id="aldx7s-x1ez62-Hd1e856">Caput 4</head>
+          <p xml:id="aldx7s-x1ez62-d1e858">
+            <lb ed="#P" n="60"/>CAPUT IV. — Sensus interior sentà ipsum sentire :
+            <lb ed="#P" n="61"/>an et se discernat.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e865" n="10">
+            <lb ed="#P" n="62"/>A. Arbitror etiam illud esse manifestum, sen-
+            <lb ed="#P" n="63"/>sum illum interiorem non ea tantum sentire, quae
+            <lb ed="#P" n="64"/>acceperit a quinque sensibus corporis, sed etiam
+            <lb ed="#P" n="65"/>ipsos ab eo sentiri. Non enim aliter bestia moveret
+            <lb ed="#P" n="66"/>se, vel appetendo aliquid, vel fugiendo, nisi se sen-
+            <lb ed="#P" n="67"/>tire sentiret ; non ad sciendum, nam hoc rationis est,
+            <lb ed="#P" n="68"/>sed tantum ad movendum, quod non utique aliquo
+            <lb ed="#P" n="69"/>illorum quinque sentit. Quod si adhuc obscurum est,
+            <lb ed="#P" n="70"/>elucescet, si animadvertas quod exempli gratia sat
+            <lb ed="#P" n="71"/>est in uno aliquo sensu, velut in visu. Namque ape-
+            <lb ed="#P" n="72"/>rire oculum, et movere aspiciendo ad id quod videre
+            <lb ed="#P" n="73"/>appetit, nullo modo posset, nisi oculo clauso vel non
+            <lb ed="#P" n="74"/>ita moto se id non videre sentiret. Si autem sentit se
+            <lb ed="#P" n="75"/>non videre dum non videt, necesse est etiam sentiat
+            <lb ed="#P" n="76"/>se videre dum videt; quia cum eo appetitu non mo-
+            <lb ed="#P" n="77"/>vet oculum videns, quo morvet non videns, indicat
+            <lb ed="#P" n="78"/>se utrumque sentire. Sed utrum et se ipsam haec vita
+            <lb ed="#P" n="79"/>sentiat, quae se corporalia sentire sentit, non ita cla-
+            <lb ed="#P" n="80"/>rum est, nisi quod se quisque intus interrogans, inve-
+            <lb ed="#P" n="81"/>nit omnem rem viventem fugere mortem ; qua cum
+            <lb ed="#P" n="82"/>sit vitae contraria, necesse est ut vita etiam seipsum
+            <lb ed="#P" n="83"/>sentiat, quae contrarium suum fugit. Quod si adhuc non
+            <lb ed="#P" n="84"/>liquet, omittatur, ut non nitamur ad id quod volumus,
+            <lb ed="#P" n="85"/>nisi certis manifestisque documentis. Manifesta enim
+            <lb ed="#P" n="86"/>sunt, sensu corporis sentiri corporalia; eumdem autem
+            <lb ed="#P" n="87"/>sensum hoc eodem sensu non posse sentiri; sensu
+            <lb ed="#P" n="88"/>autem interiore et corporalia per sensum corporis sen-
+            <lb ed="#P" n="89"/>tiri, et ipsum corporis sensum: ratione vero et illa
+            <lb ed="#P" n="90"/>omnia, et eamdem ipsam notam fieri, et scientia conti-
+            <lb ed="#P" n="91"/>neri : an tibi non videtur? E. Videtur sane. 4f. Age,
+            <lb ed="#P" n="92"/>nunc responde unde sit quaestio, ad cujus solutionem
+            <lb ed="#P" n="93"/>pervenire cupientes, jam diu istam molimur viam.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e938">
+          <head xml:id="aldx7s-x1ez62-Hd1e940">Caput 5</head>
+          <p xml:id="aldx7s-x1ez62-d1e942">
+            <lb ed="#P" n="94"/>CAPUT V. — Sensus interior praestat externis sensibus,
+            <lb ed="#P" n="95"/>quorum est moderator et judex.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e949" n="11">
+            <lb ed="#P" n="96"/>E. Quantum memini trium illarum quaestionum
+            <lb ed="#P" n="97"/>quas paulo ante ad contexendum ordinem hujus dis-
+            <lb ed="#P" n="98"/>putationis posuimus, nunc prima versatur, id est, quo-
+            <lb ed="#P" n="99"/>modo manifestum fleri possit, quamvis tenacissime
+            <lb ed="#P" n="100"/>firmissimeque credendum sit, Deum esse. A. Recte
+            <lb ed="#P" n="101"/>hoc tenes ; sed etiam illud diligenter tenere te volo,
+            <lb ed="#P" n="102"/>cum de teipso quaererem utrum te esse noveris, non
+            <lb ed="#P" n="103"/>solum hoc, sed etiam alia duo nobis apparuisse quod
+            <lb ed="#P" n="104"/>noveris. E. Id quoque teneo. A. Nunc ergo vide ad
+            <lb ed="#P" n="105"/>quam rem istarum trium intelligas pertinere omne
+            <lb ed="#P" n="106"/>quod corporis sensus attingit ; id est, in quo rerum
+            <lb ed="#P" n="107"/>genere tibi ponendum videatur, quidquid vel oculo-
+            <lb ed="#P" n="108"/>rum, vel alio quolibet corporis instrumento noster
+            <lb ed="#P" n="109"/>sensus attingit : utrum in eo quod tantum est, an in
+            <lb ed="#P" n="110"/>eo quod etiam rvivit, an in eo quod etiam intelligit.
+            <lb ed="#P" n="111"/>E. In eo quod tantum est. A. Quid? ipsum sensum
+            <lb ed="#P" n="112"/>in quo genere trium horum esse censes? E. In eo
+            <lb ed="#P" n="113"/>quod vivit. A. Quid igitur horum guorum melius esse
+            <lb ed="#P" n="114"/>judicas? sensum ipsum, an quod sensus attingit ? E.
+            <pb ed="#L" n="624"/>
+            <cb ed="#P" n="a"/>
+            <!--1247-->
+            <lb ed="#P" n="1"/>Sensum scilicet. A. Quare? E. Quia melius est id
+            <lb ed="#P" n="2"/>quod etiam vivit, quam id quod tentum est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1004" n="12">
+            <lb ed="#P" n="3"/>A. Quid ? illum sensum interiorem, quem qui-
+            <lb ed="#P" n="4"/>dem infra rationem, et adhuc nobis communem cum
+            <lb ed="#P" n="5"/>bestiis superius indagavimus, dubitabisne huic sensui
+            <lb ed="#P" n="6"/>praeponere quo corpus attingimus, et quem jam ipsi
+            <lb ed="#P" n="7"/>corpori praponendum esse dixisti? E. Nullo modo du-
+            <lb ed="#P" n="8"/>bitaverim. A. Etiam hoc cur non dubites, volo abs te
+            <lb ed="#P" n="9"/>audire. Non enim poteris dicere hunc sensum inte-
+            <lb ed="#P" n="10"/>riorem jam in eo genere trium illorum esse ponen-
+            <lb ed="#P" n="11"/>dum, quod etiam intelligit, sed adhuc in eo quod et
+            <lb ed="#P" n="12"/>est et vivit, etiamsi intellectu caret : iste enim sensus
+            <lb ed="#P" n="13"/>inest et bestiis, quibus intellectus non inest. Quae
+            <lb ed="#P" n="14"/>cum ita sint, quaero cur praeponas sensum interiorem
+            <lb ed="#P" n="15"/>huic sensui quo corporalia sentiuntur, cum sit uterque
+            <lb ed="#P" n="16"/>in eo genere quod vivit. Sensum autem istum qui cor-
+            <lb ed="#P" n="17"/>pora attingit, ideo praeposuisti corporibus, quia illa
+            <lb ed="#P" n="18"/>sunt in eo genere quod tantum est, iste vero in eo
+            <lb ed="#P" n="19"/>quod etiam vivit: in quo cum et ille interior repe-
+            <lb ed="#P" n="20"/>riatur, cur eum meliorem putes dic mihi. Si enim
+            <lb ed="#P" n="21"/>dixeris, quia ille istum sentit, non te credo inven-
+            <lb ed="#P" n="22"/>turum regulam qua figere possimus, omne sentiens
+            <lb ed="#P" n="23"/>melius esse quam id quod ab eo sentitur, ne fortassis
+            <lb ed="#P" n="24"/>ex hoc etiam cogamur dicere, omne intelligens melius
+            <lb ed="#P" n="25"/>esse quam id quod ab eo intelligitur. Hoc enim fal-
+            <lb ed="#P" n="26"/>sum est; quia homo intelligit sapientiam, et non est
+            <lb ed="#P" n="27"/>melior quam ipsa sapientia. Quamobrem vide qua
+            <lb ed="#P" n="28"/>causa tibi visum sit, sensum interiorem huic sensui
+            <lb ed="#P" n="29"/>quo sentimus corpora, esse praeferendum. E. Quia
+            <lb ed="#P" n="30"/>moderatorem et judicem quemdam hujus illum esse
+            <lb ed="#P" n="31"/>cognosco. Nam et si quid huic in officio suo defuerit,
+            <lb ed="#P" n="32"/>ille tanquam debitum a ministro flagitat, sicut paulo
+            <lb ed="#P" n="33"/>ante disputatum est. Non enim se videre, aut non vi-
+            <lb ed="#P" n="34"/>dere sensus oculi videt, et quia non videt, non potest
+            <lb ed="#P" n="35"/>quid sibi desit, aut quid satis sit judicare; sed ille in-
+            <lb ed="#P" n="36"/>terior, quo admonetur et anima bestiae aperire oculum
+            <lb ed="#P" n="37"/>clarsum, et quod deesse sentit implere. Nulli autem
+            <lb ed="#P" n="38"/>dubium est eum qui judicat, eo de quo judicat esse
+            <lb ed="#P" n="39"/>meliorem. A. Cernis ergo istum etiam corporis sen-
+            <lb ed="#P" n="40"/>sum de corporibus quodammodo judicare ? Ad illum
+            <lb ed="#P" n="41"/>enim pertinet voluptas et dolor, cum vel leniter vel
+            <lb ed="#P" n="42"/>aspere corpore attingitur. Nam sicut ille interior quid
+            <lb ed="#P" n="43"/>desit vel satis sit oculorum sensui judicat; sic ipse
+            <lb ed="#P" n="44"/>sensus oculorum quid desit *, vel satis sit coloribus
+            <lb ed="#P" n="45"/>judicat. Item sicut ille interior de auditu nostro judi
+            <lb ed="#P" n="46"/>cat, utrum minus an sufficienter intentus sit ; sic judi-
+            <lb ed="#P" n="47"/>cat auditus ipse de vocibus, quid earum leniter influat,
+            <lb ed="#P" n="48"/>aut aspere perstrepat. Non necesse est caeteros sensus
+            <lb ed="#P" n="49"/>corporis persequi: jam enim, ut opinor, animadvertis
+            <lb ed="#P" n="50"/>quid velim dicere, ita scilicet sensum illum interiorem
+            <lb ed="#P" n="51"/>de istis corporis sensibus judicare, cum eorum et in-
+            <lb ed="#P" n="52"/>tegritatem probat, et debitum flagitat, quemadmodum
+            <lb ed="#P" n="53"/>et ipsi corporis sensus de corporibus judicant, assu-
+            <lb ed="#P" n="54"/>mentes in eis lenem tactum, rejicientesque contra-
+            <lb ed="#P" n="55"/>rium. E. Cerno sane, et verissima esse consentio.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e1122">
+          <head xml:id="aldx7s-x1ez62-Hd1e1124">Caput 6</head>
+          <p xml:id="aldx7s-x1ez62-d1e1126">
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="56"/>CAPUT VI. — Ratio cateris in homine praestat; qa
+            <lb ed="#P" n="57"/>si quid praestantius, Deus est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1135" n="13">
+            <lb ed="#P" n="58"/>A. Attende jam utrum ratio etiam de hoc inte
+            <lb ed="#P" n="59"/>riore sensu judicet. Jam enim non quaero utrum ean
+            <lb ed="#P" n="60"/>meliorem illo esse dubites, quia non dubito id te ju
+            <lb ed="#P" n="61"/>dicare : quanquam ne id quidem jam quaerendum pu-
+            <lb ed="#P" n="62"/>tem, utrum de isto sensu judicet ratio. Namque in ii
+            <lb ed="#P" n="63"/>ipsis quae infra eam sunt, id est in corporibus eta
+            <lb ed="#P" n="64"/>sensibus corporis et isio interiore sensu, quomode
+            <lb ed="#P" n="65"/>sit aliud alio melius, et quaim sit illis praestantior ips,
+            <lb ed="#P" n="66"/>quae tandem, nisi ipsa renuntiat ? quod profecto nule
+            <lb ed="#P" n="67"/>modo posset, nisi de his ipsa judicaret. E. Manifestua
+            <lb ed="#P" n="68"/>est. A. Cum ergo eam naturam quae tantum est, pe
+            <lb ed="#P" n="69"/>vivit nec intelligit, sicuti est corpus exanime, praee-
+            <lb ed="#P" n="70"/>dat ea natura quae non tantum est, sed etiam virit
+            <lb ed="#P" n="71"/>nec intelligit, sicuti est anima bestiarum ; et rurss
+            <lb ed="#P" n="72"/>hanc praecedat ea quae simul et est et vivit et intell
+            <lb ed="#P" n="73"/>git, sicut in homine mens rationalis ; num arbitrari
+            <lb ed="#P" n="74"/>in nobis, id est in iis quibus natura nostra compleur
+            <lb ed="#P" n="75"/>vt homines simus, aliquid inveniri posse praestantins
+            <lb ed="#P" n="76"/>quam hoc quod in his tribus tertio loco posnimu?
+            <lb ed="#P" n="77"/>Nam et corpus nos habere manifestum est, et viam
+            <lb ed="#P" n="78"/>quamdam qua ipsum corpus animatur atque vegeu-
+            <lb ed="#P" n="79"/>tur, quae duo etiam in bestiis agnoscimus, et tertium
+            <lb ed="#P" n="80"/>quiddam quasi anima nostrae caput aut oculum, au
+            <lb ed="#P" n="81"/>si quid congruentius de ratione atque intelligentia dia
+            <lb ed="#P" n="82"/>potest, quam non habet natura bestiarum. Quare vide,
+            <lb ed="#P" n="83"/>obsecro, utrum aliquid invenire possis, quod sitin
+            <lb ed="#P" n="84"/>natura hominis ratione sublimius. E. Nihil omnin
+            <lb ed="#P" n="85"/>melius video.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1198" n="14">
+            <lb ed="#P" n="86"/>A. Quid si aliquid invenire potuerimus, quoi
+            <lb ed="#P" n="87"/>non solum esse non dubites, sed etiam ipsa nosn
+            <lb ed="#P" n="88"/>ratione praestantius ? dubitabisue illud quidquid es,
+            <lb ed="#P" n="89"/>Deum dicere ? E. Non continuo, si quid melius qum
+            <lb ed="#P" n="90"/>id quod in mea natura optimum est, invenire potuero
+            <lb ed="#P" n="91"/>Deum esse dixerim. Non enim mihi placet Deum ap-
+            <lb ed="#P" n="92"/>pellare, quo mea ratio est inferior, sed quo nullus e
+            <lb ed="#P" n="93"/>superior. A. Ita plane: nam ipse huic tuee rationi
+            <lb ed="#P" n="94"/>dedit, tam de se pie vereque sentire. Sed, quaeso v.
+            <lb ed="#P" n="95"/>si non inveneris esse aliquid supra nostram rationem,
+            <lb ed="#P" n="96"/>nisi quod aeternum atque incommutabile est, dubiu-
+            <lb ed="#P" n="97"/>bisne hunc Deum dicere ? Nam et corpora mutabila
+            <lb ed="#P" n="98"/>esse cognoscis ; et ipsam vitam qua corpus animatur.
+            <lb ed="#P" n="99"/>per affectus varios mutabilitate non carere manifestum
+            <lb ed="#P" n="100"/>est; et ipsa ratio cum modo ad verum pervenire ni
+            <lb ed="#P" n="101"/>titur, modo non nititur, et aliquando pervenit, ali
+            <lb ed="#P" n="102"/>quando non pervenit, mutabilis esse profecto convin-
+            <lb ed="#P" n="103"/>citur. Qua si nullo adhibito corporis instrument
+            <lb ed="#P" n="104"/>neque per tactum, neque per gustatum, neque pero-
+            <lb ed="#P" n="105"/>factum, neque per aures, neque per oculos, nequ
+            <lb ed="#P" n="106"/>per ullum sensum se inferiorem, sed per seipsam cer
+            <lb ed="#P" n="107"/>nit seterpum aliquid et incommutabile, simul &amp;
+            <lb ed="#P" n="108"/>seipsam inferiorem, et illum oportet Deum suum es
+            <lb ed="#P" n="109"/>fateatur. E. Hunc plane fatebor Deum, quo nibhil e-
+            <lb ed="#P" n="110"/>perius esse constiterit. A. Bene habet : nam mibi a
+            <lb ed="#P" n="111"/>tis erit ostendere esse aliquid hujusmodi, quod ant
+            <lb ed="#P" n="112"/>fateberis Deum esse, aut si aliquid supra est, eum
+            <lb ed="#P" n="113"/>ipsum Deum esse concedes. Quare sive supra sit ali
+            <lb ed="#P" n="114"/>quid, sive non sit, manifestum erit Deum esse, cum
+            <pb ed="#L" n="625"/>
+            <cb ed="#P" n="a"/>
+            <!--1249-->
+            <lb ed="#P" n="1"/>ego, quod promisi, esse supra rationem, eodem ipso
+            <lb ed="#P" n="2"/>adjurante monstravero. E. Demonstra ergo quod pol-
+            <lb ed="#P" n="3"/>liceris.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e1277">
+          <head xml:id="aldx7s-x1ez62-Hd1e1279">Caput 7</head>
+          <p xml:id="aldx7s-x1ez62-d1e1281">
+            <lb ed="#P" n="4"/>CAPUT VII. — Quomodo idem sentiatur a multis quidve
+            <lb ed="#P" n="5"/>totum, quid non totum et simul a singulis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1288" n="15">
+            <lb ed="#P" n="6"/>A. Faciam: sed prius quaero utrum sensus cor-
+            <lb ed="#P" n="7"/>poris meus idem sit qui tuus, an vero meus non sit
+            <lb ed="#P" n="8"/>nisi meus, et tuus non sit nisi tuus; quod si non ita
+            <lb ed="#P" n="9"/>esset, non possem per oculos meos videre aliquid,
+            <lb ed="#P" n="10"/>quod tu non videres. E. Concedo prorsus, quamvis
+            <lb ed="#P" n="11"/>ejusdem generis, tamen singulos nos habere sensus,
+            <lb ed="#P" n="12"/>videndi, vel audiendi, vel quoslibet alios caeterorum.
+            <lb ed="#P" n="13"/>Non enim solum videre, sed etiam audire potest ali-
+            <lb ed="#P" n="14"/>quis hominum quod alius non audiat, et aliud aliquid
+            <lb ed="#P" n="15"/>quolibet alio sensu quisquam sentire quod alius non
+            <lb ed="#P" n="16"/>sentiat. Unde manifestum est et tuum nonnisi tuum,
+            <lb ed="#P" n="17"/>et meum sensum non esse nisi meum. A. Hoc idem
+            <lb ed="#P" n="18"/>respondebis de illo etiam sensu interiore? an aliquid
+            <lb ed="#P" n="19"/>aliud? E. Nihil sane aliud. Nam et ille utique sensum
+            <lb ed="#P" n="20"/>meum sentit meus, et tuum sentit tuus : nam ideo
+            <lb ed="#P" n="21"/>plerumque interrogor ab eo qui aliquid videt, utrum
+            <lb ed="#P" n="22"/>hoc etiam ego videam, quia ego me videre aut non
+            <lb ed="#P" n="23"/>videre sentio, non ille qui interrogat. A. Quid? ipsam
+            <lb ed="#P" n="24"/>rationem nonne unusquisque nostrum habet suam?
+            <lb ed="#P" n="25"/>quandoquidem fleri potest ut ego aliquid intelligam,
+            <lb ed="#P" n="26"/>cum tu id non intelligis; nec utrum intelligam tu
+            <lb ed="#P" n="27"/>scire possis, ego autem sciam. E. Manifestum est
+            <lb ed="#P" n="28"/>etiam rationales mentes singulos quosque nostrum
+            <lb ed="#P" n="29"/>singulas habere.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1343" n="16">
+            <lb ed="#P" n="30"/>A. Num etiam poteris dicere singulos soles nos
+            <lb ed="#P" n="31"/>habere quos videmus, aut lunas, aut luciferos, aut
+            <lb ed="#P" n="32"/>caetera hujusmodi, quamvis suo quisque ac proprio
+            <lb ed="#P" n="33"/>sensu ista videat? E. Nullo modo istud dixerim. A.
+            <lb ed="#P" n="34"/>Possumus ergo videre unum aliquid multi simul,
+            <lb ed="#P" n="35"/>cum sint sensus nostri nobis singulis singuli, quibus
+            <lb ed="#P" n="36"/>omnibus illud unum sentimus quod simul videmus;
+            <lb ed="#P" n="37"/>ut quamvis alius sensus meus sit, et alius tuus, pos-
+            <lb ed="#P" n="38"/>sit tamen fieri ut id quod videmus, non sit aliud
+            <lb ed="#P" n="39"/>meum, aliud tuum; sed illud unum praesto sit utri-
+            <lb ed="#P" n="40"/>quae nostrum et simul ab utroque videatur. E. Mani-
+            <lb ed="#P" n="41"/>festissimum est. A. Possumus etiam unam aliquam
+            <lb ed="#P" n="42"/>vocem simul audire, ut quamvis alius sit auditus
+            <lb ed="#P" n="43"/>mens, alius tuus, non sit tamen alia mea, et alia
+            <lb ed="#P" n="44"/>tua vox quam simul audimus, vel alia pars ejus au-
+            <lb ed="#P" n="45"/>ditu meo capiatur, et alia tuo, sed quidquid sonue-
+            <lb ed="#P" n="46"/>rit, et upum et totum audiendum simul adsit ambo-
+            <lb ed="#P" n="47"/>bus. E. Et hoc manifestum est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1385" n="17">
+            <lb ed="#P" n="48"/>A. Jam etiam de caeteris sensibus corporis li-
+            <lb ed="#P" n="49"/>cet animadvertas quod dicimus, neque omnino illos,
+            <lb ed="#P" n="50"/>quod ad hanc rem attinet, ita se habere ut illos
+            <lb ed="#P" n="51"/>duos oculorum et aurium, neque omnino non ita.
+            <lb ed="#P" n="52"/>Nam quia ex uno aere et ego et tu possumus implere
+            <lb ed="#P" n="53"/>spiramentum, et ejus aeris affectionem odore sentire:
+            <lb ed="#P" n="54"/>et item quia ex uno melle, vel quolibet alio cibo seu
+            <lb ed="#P" n="55"/>potu ambo gustare possumus, et ejus affectionem sa-
+            <lb ed="#P" n="56"/>pore sentire, quamvis ille unus sit, nostri autem sint
+            <lb ed="#P" n="57"/>sensus singuli, tibi tuus et mihi meus; ut unum
+            <lb ed="#P" n="58"/>odorem vel unum saporem cum ambo sentiamus,
+            <lb ed="#P" n="59"/>nec tu tamen eum meo sensu sentias, nec ego tuo,
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="60"/>nec aliquo uno qui utriusque nostrum possit esse
+            <lb ed="#P" n="61"/>communiter, sed prorsus mihi meus sensus sit, et
+            <lb ed="#P" n="62"/>tuus tibi, etiamsi unus aut odor, aut sapor ab utro-
+            <lb ed="#P" n="63"/>que sentiatur : hinc ergo isti sensus inveniuntur ha-
+            <lb ed="#P" n="64"/>bere aliquid tale, quale illi duo in visu et auditu:
+            <lb ed="#P" n="65"/>sed in eo dispares sunt, quantum ad id quod nunc
+            <lb ed="#P" n="66"/>agimus pertinet, quod etsi unum aerem naribus ambo
+            <lb ed="#P" n="67"/>trahimus, aut unum cibum gustando capimus; non
+            <lb ed="#P" n="68"/>tamen eam partem aeris duco quam tu, nec eam-
+            <lb ed="#P" n="69"/>dem partem cibi sumo quam tu, sed aliam ego,
+            <lb ed="#P" n="70"/>aliam tu : et ideo de toto aere cum spiro, duco
+            <lb ed="#P" n="71"/>partem quanta mibi satis est, et tu item de toto aliam
+            <lb ed="#P" n="72"/>quanta tibi satis est ducis : et cibus quamvis unus et
+            <lb ed="#P" n="73"/>totus ab utroque absumatur * non tamen et a me to-
+            <lb ed="#P" n="74"/>tus, et a te totus absumi potest, quomodo verbum
+            <lb ed="#P" n="75"/>et ego totum audio, et tn totum simul, et speciem
+            <lb ed="#P" n="76"/>quamlibet quantam ego rideo, tantam et tu simul;
+            <lb ed="#P" n="77"/>sed cibi vel potionis alia pars in me, alia in te trans-
+            <lb ed="#P" n="78"/>eat necesse est : an parum ista intelligis? E. Imo
+            <lb ed="#P" n="79"/>vero apertissima et certissima esse consentio.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1460" n="18">
+            <lb ed="#P" n="80"/>A. Num censes tangendi sensum comparandum
+            <lb ed="#P" n="81"/>esse oculorum et aurium sensibus in ea re de qua
+            <lb ed="#P" n="82"/>nunc agitur; quia non solum corpus uuum ambo pos-
+            <lb ed="#P" n="83"/>sumus sentire tangendo, sed etiam eamdem partem tu
+            <lb ed="#P" n="84"/>quoque poteris tangere quam ego tetigero, ut non so-
+            <lb ed="#P" n="85"/>lum idem corpus, sed eamdem quoque corporis par-
+            <lb ed="#P" n="86"/>tem possimus ambo sentire tangendo? Non enim sic-
+            <lb ed="#P" n="87"/>uti cibum aliquem appositum non possumus et ego
+            <lb ed="#P" n="88"/>totum et tu totum capere, cum aribo illo vescimur,
+            <lb ed="#P" n="89"/>sic etiam in;tangendo accidit : sed et unum et totum
+            <lb ed="#P" n="90"/>quod ego tetigero, etiam tu potes, ut id ambo tanga-
+            <lb ed="#P" n="91"/>mus, non singulis partibus, sed totum singuli. E.
+            <lb ed="#P" n="92"/>Fateor hoc modo duobus illis superioribus sensibus,
+            <lb ed="#P" n="93"/>hunc tangendi sensum esse simillimum : sed in hoc
+            <lb ed="#P" n="94"/>video esse dissimilem, quod simul, id est uno tem-
+            <lb ed="#P" n="95"/>pore, et videre aliquid unum totum ambo possumus
+            <lb ed="#P" n="96"/>et audire; tangere autem possumus quidem totum
+            <lb ed="#P" n="97"/>aliquid ambo uno tempore, sed partibus singulis,
+            <lb ed="#P" n="98"/>eamdem autem partem nonnisi temporibus singulis :
+            <lb ed="#P" n="99"/>nam nulli parti quam tactu capis, possum meum ta-
+            <lb ed="#P" n="100"/>ctum admorere, nisi tu amoveris tuum
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1508" n="19">
+            <lb ed="#P" n="101"/>A. Vigilantissime respondisti : sed oportet te
+            <lb ed="#P" n="102"/>etiam illud videre, cum horum omnium quae senti-
+            <lb ed="#P" n="103"/>mus, alia sint que ambo, alia quae singuli sentia-
+            <lb ed="#P" n="104"/>mus; ipsos vero sensus nostros suos quisque sin-
+            <lb ed="#P" n="105"/>guli sentiamus ut neque ego sentiam sensum tuum,
+            <lb ed="#P" n="106"/>neque tu meum, quod de his rebus que sentiuntur a
+            <lb ed="#P" n="107"/>nobis per corporis sensus, id est quod de corporali-
+            <lb ed="#P" n="108"/>bus rebus non possumus sentire ambo, sed singuli,
+            <lb ed="#P" n="109"/>nisi quod ita fit nostrum ut hoc in nos vertere, et
+            <lb ed="#P" n="110"/>commutare possimus, sicti est cibus et potus, cujus
+            <lb ed="#P" n="111"/>nullam partem quam ego percepero, et tu percipere
+            <lb ed="#P" n="112"/>poteris : quia et si nutrices alimenta mansa infantibus
+            <lb ed="#P" n="113"/>reddunt, illud tamen quod inde gustatus rapuerit at-
+            <lb ed="#P" n="114"/>que in mandentis viscera commutaverit, nullo modo
+            <lb ed="#P" n="115"/>revocari poterit ut in escam refundatur infantis. Gula
+            <lb ed="#P" n="116"/>enim cum aliquid jucunde sapit, etiamsi exiguam, ta-
+            <lb ed="#P" n="117"/>men irrevocabilem partem sibi vindicat, et hoc cogit
+            <pb ed="#L" n="626"/>
+            <cb ed="#P" n="a"/>
+            <!--1251-->
+            <lb ed="#P" n="1"/>fieri quod naturae corporis convenit : quod nisi ita es-
+            <lb ed="#P" n="2"/>set, nullus remaneret sapor in ore posteaquam fue-
+            <lb ed="#P" n="3"/>rint mansa illa reddita atque desputa. Quod etiam de
+            <lb ed="#P" n="4"/>aeris partibus recte dici potest, quas naribus duci-
+            <lb ed="#P" n="5"/>mus : nam etiamsi aliquid aeris quod ego reddidero,
+            <lb ed="#P" n="6"/>possis etiam tu ducere, non tamen poteris etiam il-
+            <lb ed="#P" n="7"/>lud, quod inde in alimentum meum cesserit; quia
+            <lb ed="#P" n="8"/>nec reddi potest. Nam etiam naribus alimentum nos
+            <lb ed="#P" n="9"/>capere medici docent : quod alimentum et spirando
+            <lb ed="#P" n="10"/>solus sentire possum, et reflando restituere non pos-
+            <lb ed="#P" n="11"/>sum, ut abs te etiam ductum naribus sentiatur. Nam
+            <lb ed="#P" n="12"/>caetera sensibilia qua quamvis sentiamus, non tamen
+            <lb ed="#P" n="13"/>ea sentiendo in nostrum corpus corrupta mutamus,
+            <lb ed="#P" n="14"/>possumns ea, sive uno tempore, sive singulis vicis-
+            <lb ed="#P" n="15"/>sim temporibus ambo sentire, sicut vel totum vel
+            <lb ed="#P" n="16"/>pars ipsa quam sentio, abs te etiam sentiatur; qualia
+            <lb ed="#P" n="17"/>sunt, sive lux, sive sonus, sive corpora quae attin-
+            <lb ed="#P" n="18"/>gimus, non tamen ledimus. E. Intelligo. A. Manife-
+            <lb ed="#P" n="19"/>stum est ergo ea quae non commutamus et tamen sen-
+            <lb ed="#P" n="20"/>timus corporis sensibus, et non pertinere ad naturam
+            <lb ed="#P" n="21"/>sensuum nostrorum, et propterea magis nobis esse
+            <lb ed="#P" n="22"/>communis, quia in nostrum proprium et quasi pri-
+            <lb ed="#P" n="23"/>vatum non vertuntur atque mutantur. E. Prorsus as-
+            <lb ed="#P" n="24"/>sentior. A. Proprium ergo et quasi privatum intelli-
+            <lb ed="#P" n="25"/>gendum est, quod unicuique nostrum soli est *, et
+            <lb ed="#P" n="26"/>quod in se solus sentit, quod ad suam naturam pro-
+            <lb ed="#P" n="27"/>prie pertinet : commune autem et quasi publicum,
+            <lb ed="#P" n="28"/>quod ab omnibus sentientibus nulla sui corruptione
+            <lb ed="#P" n="29"/>atque commntatione sentitur. E. Ita est.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e1618">
+          <head xml:id="aldx7s-x1ez62-Hd1e1620">Caput 8</head>
+          <p xml:id="aldx7s-x1ez62-d1e1622">
+            <lb ed="#P" n="30"/>CAPUT VIII. — Numerorum ratio nullo corporis sensu
+            <lb ed="#P" n="31"/>percipitur, a quovis intelligente percepta una est et
+            <lb ed="#P" n="32"/>incommutabilis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1631" n="20">
+            <lb ed="#P" n="33"/>A. Age, nunc attende, et dic mihi utrum in-
+            <lb ed="#P" n="34"/>veniatur aliquid quod omnes ratiocinantes sua quis-
+            <lb ed="#P" n="35"/>que ratione atque mente communiter videant, cum
+            <lb ed="#P" n="36"/>illud quod videtur praesto sit omnibus, nec in usum
+            <lb ed="#P" n="37"/>eorum quibus praesto est commutetur, quasi ci-
+            <lb ed="#P" n="38"/>bus aut potio, sed incorruptum integrumque per-
+            <lb ed="#P" n="39"/>maneat, sive illi videant, sive non videant : an
+            <lb ed="#P" n="40"/>forte nihil hujusmodi esse arbitraris? E. Imo multa
+            <lb ed="#P" n="41"/>esse video; e quibus unum commemorari satis est,
+            <lb ed="#P" n="42"/>quod ratio et veritas numeri omnibus ratiocinantibus
+            <lb ed="#P" n="43"/>prasto est, ut omnis eam computator sua quisque
+            <lb ed="#P" n="44"/>ratione et intelligentia conetur apprehendere; et alius
+            <lb ed="#P" n="45"/>id facilius, alius difficilius possit, alius omnino non
+            <lb ed="#P" n="46"/>possit : cum tamen ipsa sequaliter omnibus se prae-
+            <lb ed="#P" n="47"/>beat valentibus eam capere; nec cum eam quisque
+            <lb ed="#P" n="48"/>percipit, in sui perceptoris quasi alimentum vertatur
+            <lb ed="#P" n="49"/>atque mutetur; nec cum in ea quisque fallitur, ipsa
+            <lb ed="#P" n="50"/>deficiat, sed ea vera et integra permanente, ille in
+            <lb ed="#P" n="51"/>errore sit tanto amplius, quanto minus eam videt.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1675" n="21">
+            <lb ed="#P" n="52"/>A. Recte sane; sed video te tanquam non ru-
+            <lb ed="#P" n="53"/>dem harum rerum cito invenisse quod diceres : ta-
+            <lb ed="#P" n="54"/>men, si tibi aliquis diceret numeros istos non ex
+            <lb ed="#P" n="55"/>aliqua sua natura, sed ex iis rebus quas sensu cor-
+            <lb ed="#P" n="56"/>poris attingimus, impressos esse animo nostro quasi
+            <lb ed="#P" n="57"/>quasdam imagines quocumque visibilium; quid re-
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="58"/>sponderes? an tu quoque id putas? E. Nullo modo
+            <lb ed="#P" n="59"/>id putaverim : non enim si sensu corporis peresi
+            <lb ed="#P" n="60"/>numeros, idcirco etiam rationem partitionis nume
+            <lb ed="#P" n="61"/>rorum vel copulationis sensu corporis percipere pe-
+            <lb ed="#P" n="62"/>tui. Hac enim luce mentis refello eum, quisquis wd
+            <lb ed="#P" n="63"/>in addendo vel in retrahendo dum computat falsan
+            <lb ed="#P" n="64"/>summam renuntiaverit. Et quidquid sensu corpors
+            <lb ed="#P" n="65"/>tango, veluti est hoc colum et haec terra, et que
+            <lb ed="#P" n="66"/>cumque in eis alia corpora sentio, quamdiu fotan
+            <lb ed="#P" n="67"/>sint nescio : septem autem et tria decem sunt;a
+            <lb ed="#P" n="68"/>non solum nunc, sed etiam semper; neque ullo mods
+            <lb ed="#P" n="69"/>aliquando septem et tria non fuerunt decem,ant ali
+            <lb ed="#P" n="70"/>quando septem et tria non erunt decem. Hanc em
+            <lb ed="#P" n="71"/>incorruptibilem numeri veritatem *, dixi mibhi et ca
+            <lb ed="#P" n="72"/>libet ratiocinanti esse comnunem.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1725" n="22">
+            <lb ed="#P" n="73"/>A. Non resisto tibi verissima et certissima re-
+            <lb ed="#P" n="74"/>spondenti. Sed ipsos quoque numeros non per corpo
+            <lb ed="#P" n="75"/>ris sensus attractos esse facile videbis, si cogitavers
+            <lb ed="#P" n="76"/>quemlibet numerum tot vocari quoties unum habue-
+            <lb ed="#P" n="77"/>rit : verbi gratia, si bis habuerit unum, duo w-
+            <lb ed="#P" n="78"/>cantur; si ter, tria; et si decies unum haben,
+            <lb ed="#P" n="79"/>tunc vocantur decem : et quilibet omnino na-
+            <lb ed="#P" n="80"/>merus quoties habet unum, hinc illi nomen est
+            <lb ed="#P" n="81"/>et tot appellatur. Unum vero quisquis verissime co-
+            <lb ed="#P" n="82"/>gitat, profecto invenit corporis sensibus non pose
+            <lb ed="#P" n="83"/>sentiri. Quidquid enim tali sensu attingitur, m
+            <lb ed="#P" n="84"/>non unum, sed multa esse convincitur : corpus
+            <lb ed="#P" n="85"/>est enim, et ideo habet innumerabiles partes Sel
+            <lb ed="#P" n="86"/>ut minutas quasque minusque articulatas non per
+            <lb ed="#P" n="87"/>sequar, quantulumcumque illud corpusculum si
+            <lb ed="#P" n="88"/>habet certe aliam partem dexteram, aliarn sinistram;
+            <lb ed="#P" n="89"/>aliam superiorem, aliam inferiorem; aut aliam ulte
+            <lb ed="#P" n="90"/>riorem, aliam citeriorem; aut alias finales, aliam
+            <lb ed="#P" n="91"/>mediam : haec enim necesse est quamlibet exiguo cor-
+            <lb ed="#P" n="92"/>poris modulo inesse fateamur; et propterea nallum
+            <lb ed="#P" n="93"/>corpus vere pureque unum esse concedimus, in quo
+            <lb ed="#P" n="94"/>tamen non possent tam multa numerari nisiillis
+            <lb ed="#P" n="95"/>unius cognitione discreta. Cum enim quaero unumia
+            <lb ed="#P" n="96"/>corpore, et me non invenire non dubito, novi utique
+            <lb ed="#P" n="97"/>quid ibi quaeram, et quid ibi non inveniam, et na
+            <lb ed="#P" n="98"/>posse inveniri, vel potius omnino ibi non esse. Ubi
+            <lb ed="#P" n="99"/>ergo novi quod non est corpus unum, quid sit unum
+            <lb ed="#P" n="100"/>novi : unum enim si non nossem, multa in corpore
+            <lb ed="#P" n="101"/>numerare non possem. Ubicumque antem unum
+            <lb ed="#P" n="102"/>noverim, non utique per corporis sensum novi
+            <lb ed="#P" n="103"/>quia per corporis sensum non novi nisi corpus,
+            <lb ed="#P" n="104"/>quod vere pureque unum non esse convincimus.
+            <lb ed="#P" n="105"/>Porro si unum non percepimus corporis sensu, nul-
+            <lb ed="#P" n="106"/>lum numerum eo sensu percepimus, eorum duntaxa
+            <lb ed="#P" n="107"/>numerorum quos intelligentia cernimus. Nullus enim
+            <lb ed="#P" n="108"/>est ex iis, qui non tot vocetur, quoties habet unum,
+            <lb ed="#P" n="109"/>cujus perceptio corporis sensu non fit. Cojuslibe
+            <lb ed="#P" n="110"/>enim corpusculi pars dimidia quantis duabus totum
+            <lb ed="#P" n="111"/>constat, habet et ipsa dimidiam suam. Sic ergo sunt
+            <lb ed="#P" n="112"/>ille duae partes in corpore, ut nec ipsae simpliciter
+            <lb ed="#P" n="113"/>duee sint. Numerus autem ille qui vocatur duo, quo-
+            <lb ed="#P" n="114"/>niam bis habet illud quod simpliciter unum est, pars
+            <pb ed="#L" n="627"/>
+            <cb ed="#P" n="a"/>
+            <!-- left side of column is corrupted by scan -->
+            <lb ed="#P" n="1"/>dimidia, id est illudipsum quod simpliciter unum
+            <lb ed="#P" n="2"/>non potest rursus habere dimidiam partem vel
+            <lb ed="#P" n="3"/>am, vel quotamlibet, quoniam simplex et vere
+            <lb ed="#P" n="4"/>n est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1835" n="23">
+            <lb ed="#P" n="5"/>Deinde quoniam tenentes ordinem numerorum,
+            <lb ed="#P" n="6"/>unum duo videmus, qui numerus ad unum col-
+            <lb ed="#P" n="7"/>», duplus invenitur: duplus duorum non conse-
+            <lb ed="#P" n="8"/>iter adjungitur, sed interposito ternario quater-
+            <lb ed="#P" n="9"/>as sequitur, qui duplus est duorum. Et haec ratio
+            <lb ed="#P" n="10"/>nmnes caeteros numeros certissima et incommu-
+            <lb ed="#P" n="11"/>ilege pertenditur, ut post unum, id est post
+            <lb ed="#P" n="12"/>mm omnium numerorum, ipso excepto primus sit
+            <lb ed="#P" n="13"/>Juplum ejus habet; duo enim sequuntur. Post
+            <lb ed="#P" n="14"/>adum autem, id est post duo, ipso excepto se-
+            <lb ed="#P" n="15"/>us sit qui duplum ejus habet: post duo enim
+            <lb ed="#P" n="16"/>us est ternarius, secundus quaternarius, duplus
+            <lb ed="#P" n="17"/>udi. Post tertium, id est ternarium, ipso excepto
+            <lb ed="#P" n="18"/>us sit qui duplus est ejus: post tertium enim, id
+            <lb ed="#P" n="19"/>ost ternarium primus est quaternarius, secundus
+            <lb ed="#P" n="20"/>arius, tertius senarius, qui duplus est tertii. At-
+            <lb ed="#P" n="21"/>ita post quartum, ipso excepto quartus habet du-
+            <lb ed="#P" n="22"/>1 ejus: post quartum enim, id est quaternarium
+            <lb ed="#P" n="23"/>uus est quinarius, secundus senarius, tertius se-
+            <lb ed="#P" n="24"/>arius, quartus octonarius, qui duplex est quarti.
+            <lb ed="#P" n="25"/>te ita per omnes caeteros reperies hoc quod in
+            <lb ed="#P" n="26"/>iacopula numerorum, id est uno et duobus inven-
+            <lb ed="#P" n="27"/>est, ut quotus quisque numerus est ab ipso prin-
+            <lb ed="#P" n="28"/>» totus post illum sitduplus ejus. Hocergo quod
+            <lb ed="#P" n="29"/>omnes numeros esse immobile, firmum incorru-
+            <lb ed="#P" n="30"/>aque conspicimus, unde conspicimus? Non enim
+            <lb ed="#P" n="31"/>ullo sensu corporis omnes numeros attingit ;
+            <lb ed="#P" n="32"/>merabiles enim sunt: unde ergo novimus per
+            <lb ed="#P" n="33"/>es hoc esse, autqua phantasia vel phantasmate tam
+            <lb ed="#P" n="34"/>1 veritas numeri per innumerabilia tam fidenter,
+            <lb ed="#P" n="35"/>in luce interiore conspicitur, quam corporalis
+            <lb ed="#P" n="36"/>us ignorat ?
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1907" n="24">
+            <lb ed="#P" n="37"/>His et talibus multis documentis coguntur fateri
+            <lb ed="#P" n="38"/>quibus disputantibus Deus donavit ingenium, et
+            <lb ed="#P" n="39"/>inacia caliginum non obducit, rationem verita-
+            <lb ed="#P" n="40"/>que numerorum, et ad sensus corporis non per-
+            <lb ed="#P" n="41"/>*e, et invertibilem sinceramque consistere, et
+            <lb ed="#P" n="42"/>ibus ratiocinantibus ad videndum esse commu-
+            <lb ed="#P" n="43"/>Quapropter cum multa alia possint occurrere,
+            <lb ed="#P" n="44"/>comnuniter et tanquam publice praesto sunt ra-
+            <lb ed="#P" n="45"/>nantibus, et ab eis videantur mente atque ratione
+            <lb ed="#P" n="46"/>ulorum quorumqne cernentium, eaque inviolata et
+            <lb ed="#P" n="47"/>mmutabilia maneant ; non tamen invitus accepe-
+            <lb ed="#P" n="48"/>quod ista ratio et veritas numeri tibi potissimum
+            <lb ed="#P" n="49"/>rrerit, cum ad id quod interrogaveram, respon-
+            <lb ed="#P" n="50"/>voluisses : non enim frustra in sanctis Libris
+            <lb ed="#P" n="51"/>antiae conjunctus est numerus, ubi dictum est:
+            <lb ed="#P" n="52"/>sivi ego et cor meum *, ut scirem, et considerarem.
+            <lb ed="#P" n="53"/>urerem sapientiam, et numerum (Eccle. vn, 26).
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e1948">
+          <head xml:id="aldx7s-x1ez62-Hd1e1950">Caput 9</head>
+          <p xml:id="aldx7s-x1ez62-d1e1952">
+            <lb ed="#P" n="54"/>CAPUT IX. — Quid sapientia, sine qua nemo beatus,
+            <lb ed="#P" n="55"/>an una sit in omnibus sapientibus.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e1959" n="25">
+            <lb ed="#P" n="56"/>Verumtamen, quaeso te, quid de ipsa sapientia
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="57"/>putas existimandum ? Singulas quasque suas arbitra-
+            <lb ed="#P" n="58"/>ris singulos quosque homines habere sapientias ? an
+            <lb ed="#P" n="59"/>vero unam praesto esse communiter omnibus, cujus
+            <lb ed="#P" n="60"/>quanto magis quisque fit particeps, tanto est sapien-
+            <lb ed="#P" n="61"/>tior? E. Quam dicas sapientiam nondum scio; video
+            <lb ed="#P" n="62"/>quippe varie videri hominibus, quid flat dicatur va sa-
+            <lb ed="#P" n="63"/>pienter : nam et qui militant, sapienter sibi facere
+            <lb ed="#P" n="64"/>videntur ; et qui contempta militia colendo agro cu-
+            <lb ed="#P" n="65"/>ram atque operam impendunt, hoc potius laudant,
+            <lb ed="#P" n="66"/>tribuuntque sapientiae ; et qui astuti sunt ad excogi-
+            <lb ed="#P" n="67"/>tandos modos conquirende pecunise, sibi videntur
+            <lb ed="#P" n="68"/>esse sapientes ; et qui haec omnia negligunt vel abji-
+            <lb ed="#P" n="69"/>ciunt, et quaeque sunt hujusmodi temporalia et totum
+            <lb ed="#P" n="70"/>studium suum ad investigationem conferunt veritatis,
+            <lb ed="#P" n="71"/>ut semetipsos Deum que cognoscant, magnum hoc esee
+            <lb ed="#P" n="72"/>sepientis munus judicant ; et qui huic otio querendi
+            <lb ed="#P" n="73"/>et contemplandi veri nolunt se dedere, sed potius la-
+            <lb ed="#P" n="74"/>boriosissimis curis et officiis agunt, ut hominibuscon-
+            <lb ed="#P" n="75"/>sulant, et in rerum humanarum juste moderandarum
+            <lb ed="#P" n="76"/>et gubernandarum actione versantur, sapientes se
+            <lb ed="#P" n="77"/>esse arbitrantur ; et qui utrumque horum agunt, et
+            <lb ed="#P" n="78"/>partim vivunt in contemplatione veritatis, partim in
+            <lb ed="#P" n="79"/>laboribus officiosis, quos humanae societati deberi pu-
+            <lb ed="#P" n="80"/>tant, sibi palmam sapientiae tenere videntur. Omitto
+            <lb ed="#P" n="81"/>innumerabiles sectas, quarum nulla est quae non se-
+            <lb ed="#P" n="82"/>ctatores suos preeponens caeteris, eos solos velit esse
+            <lb ed="#P" n="83"/>sapientes. Quamobrem cum id nunc agatur inter nos,
+            <lb ed="#P" n="84"/>ut non quid credamus respondendum sit, sed quid di-
+            <lb ed="#P" n="85"/>lucida intelligentia teneamus, nullo modo ad id tibi
+            <lb ed="#P" n="86"/>quod interrogasti respondere potero, nisi quod cre-
+            <lb ed="#P" n="87"/>dendo teneo, contemplando etiam et ratione cernendo
+            <lb ed="#P" n="88"/>noverim, quae sit ipsa sapientia.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2035" n="26">
+            <lb ed="#P" n="89"/>A. Num aliam putas esse sapientiam nisi veri-
+            <lb ed="#P" n="90"/>tatem, in qua cernitur et tenetur summum bonum ?
+            <lb ed="#P" n="91"/>Nam illi omnes quos commemorasti diversa sectantes,
+            <lb ed="#P" n="92"/>bonum appetunt, et malum fugiunt; sed propterea
+            <lb ed="#P" n="93"/>diversa sectantur, quod aliud alii videtur bonum.
+            <lb ed="#P" n="94"/>Quisquis ergo appetit quod appetendum non erat,
+            <lb ed="#P" n="95"/>tametsi id non appeteret nisi ei videretur bonum, er-
+            <lb ed="#P" n="96"/>rat tamen. Errare autem neque ille potest qui nihil
+            <lb ed="#P" n="97"/>appetit, neque ille qui hoc appetit quod debet appe-
+            <lb ed="#P" n="98"/>tere. In quantum igitur omnes homines appetunt
+            <lb ed="#P" n="99"/>vitam beatam, non errant. In quantum autem quis-
+            <lb ed="#P" n="100"/>que non eamtenet vite viam quae ducit ad beatitudi-
+            <lb ed="#P" n="101"/>nem, cum se fateatur, et profiteatur nolle nisi ad bea-
+            <lb ed="#P" n="102"/>titudinem pervenire, in tantum errat. Error est enim
+            <lb ed="#P" n="103"/>cum sequimur aliquid quod non ad id ducit quo volu-
+            <lb ed="#P" n="104"/>mus perrenire. Et quanto magis in via vite quis er-
+            <lb ed="#P" n="105"/>rat, tanto minus sapit. Tanto enim magis longe esta
+            <lb ed="#P" n="106"/>veritate, in qua cernitur et tenetur summum bonum.
+            <lb ed="#P" n="107"/>Summo autem bono assecnto et adepto, beatus quis-
+            <lb ed="#P" n="108"/>que fit; quod omnes sine controversia volumus. Ut
+            <lb ed="#P" n="109"/>ergo constat nos beatos esse velle, ita nos constat
+            <lb ed="#P" n="110"/>velle esse sapientes ; quia nemo sine sapientia beatus
+            <lb ed="#P" n="111"/>est. Nemo enim beatus est, nisi summo bono, quod
+            <lb ed="#P" n="112"/>ni en veritate, quam sapientiam vocamus, cernitur et
+            <lb ed="#P" n="113"/>tenetur. Sicut ergo antequam beati simus, mentibus
+            <lb ed="#P" n="114"/>tamen nostris impressa est notio beatitatis; per hanc
+            <lb ed="#P" n="115"/>enim scimus, fidenterque, et sine ulla dubitatione di-
+            <pb ed="#L" n="628"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P" n="1"/>cimus beatos nos esse velle : ita etiam priusquam sa-
+            <lb ed="#P" n="2"/>pientes simus, sapientiee notionem inmente habemus
+            <lb ed="#P" n="3"/>impressam, per quam unusquisque nostrum si inter-
+            <lb ed="#P" n="4"/>rogetur velitne esse sapiens, sine ulla caligine dubi-
+            <lb ed="#P" n="5"/>tationis se velle respondet.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2111" n="27">
+            <lb ed="#P" n="6"/>Quare si jam constat inter nos quae sit sapien-
+            <lb ed="#P" n="7"/>tia, quam fortasse verbis explicare non poteras (nam
+            <lb ed="#P" n="8"/>si eam nullo modo animo cerneres, nullo modo scires
+            <lb ed="#P" n="9"/>et velle te esse sapientem et velle debere, quod te ne-
+            <lb ed="#P" n="10"/>gaturum esse non arbitror), volo jam dicas mihi,
+            <lb ed="#P" n="11"/>utrum etiam sapientiam, sicut numeri rationem atque
+            <lb ed="#P" n="12"/>veritatem omnibus ratiocinantibus communem se pra-
+            <lb ed="#P" n="13"/>bere arbitreris ; an quoniam tot sunt mentes homi-
+            <lb ed="#P" n="14"/>num quot homines sunt, unde nec ergo de tuamente
+            <lb ed="#P" n="15"/>aliquid cerno, nec tu de mea, tot etiam putes esse
+            <lb ed="#P" n="16"/>sapientias, quot potuerint esse sapientes. E. Si sum-
+            <lb ed="#P" n="17"/>mum bonum omnibus unum est, oportet etiam veri-
+            <lb ed="#P" n="18"/>tatem in qua cernitur et tenetur, id est sapientiam,
+            <lb ed="#P" n="19"/>omnibus unam esse communem. A. Dubitas autem
+            <lb ed="#P" n="20"/>summum bonum, quidquid illud est omnibus homi-
+            <lb ed="#P" n="21"/>nibus unum esse ? E. Dubito sane, quia diversos di-
+            <lb ed="#P" n="22"/>versis rebus gaudere video tanquam summis bonis
+            <lb ed="#P" n="23"/>suis. A. Vellem quidem, ut de summo bono ita nemo
+            <lb ed="#P" n="24"/>dubitaret, ut nemo dubitat quidquid illud est, non
+            <lb ed="#P" n="25"/>nisi eo adepto posse fieri hominem beatum. Sed quo-
+            <lb ed="#P" n="26"/>niam magna quaestio est, et longum sermonem forte
+            <lb ed="#P" n="27"/>desiderat, putemus omnino tot summa bona esse,
+            <lb ed="#P" n="28"/>quot sunt ipsae res diversae quae a diversis tanquam
+            <lb ed="#P" n="29"/>summa bona appetuntur: num ideo sequitur, ut ipsa
+            <lb ed="#P" n="30"/>sapientia etiam non sit una communis omnibus, quia
+            <lb ed="#P" n="31"/>ea bona, quae in illa cernunt et eligunt homines,
+            <lb ed="#P" n="32"/>multa et diversa sunt? Si enim hoc putas, potes et
+            <lb ed="#P" n="33"/>de luce solis dubitare quod una sit, quia multa et di-
+            <lb ed="#P" n="34"/>versa sunt, quae inea cernimus. De quibus multis ele-
+            <lb ed="#P" n="35"/>git quisque pro voluntate quo fruatur per oculorum
+            <lb ed="#P" n="36"/>sensum : et alius altitudinem montis alicujus intuetur
+            <lb ed="#P" n="37"/>libenter. et eo gaudet aspectu; alius campi planitiem,
+            <lb ed="#P" n="38"/>alius convexa vallium, alius nemorum viriditatem,
+            <lb ed="#P" n="39"/>alius mobilem sequalitatem maris, alius haec omnia,
+            <lb ed="#P" n="40"/>vel quaedam horum simul pulchra confert ad latitiam
+            <lb ed="#P" n="41"/>videndi. Sicut ergo ista multa et diversa sunt, quae in
+            <lb ed="#P" n="42"/>Iuce solis homines vident et eligunt ad fruendum, lux
+            <lb ed="#P" n="43"/>tamen ipsa una est, in qua videt et tenet quo fruatur
+            <lb ed="#P" n="44"/>uniuscujusque intuentis aspectus : ita, etiamsi multa
+            <lb ed="#P" n="45"/>sunt bona eaque diversa, e quibus eligat quisque quod
+            <lb ed="#P" n="46"/>volet, idque videndu et tenendo ad fruendum sum-
+            <lb ed="#P" n="47"/>mum sibi bonum recte vereque constituat; fieri ta-
+            <lb ed="#P" n="48"/>men potest nt lux ipsa sapientiae, in qua haec videri et
+            <lb ed="#P" n="49"/>teneri possunt, omnibus sapientibus sit una commu-
+            <lb ed="#P" n="50"/>nis. E. Fateor fieri posse, nec impedire aliquid, ut
+            <lb ed="#P" n="51"/>non sit omnibus communis una sapientia, etiamsi
+            <lb ed="#P" n="52"/>multa et diversa sint summa bona : sed vellem scire
+            <lb ed="#P" n="53"/>an ita sit. Quod enim concedimus fleri posse ut ita
+            <lb ed="#P" n="54"/>sit, non continuo ita esse concedimus. A. Tenemus
+            <lb ed="#P" n="55"/>interim esse sapientiam: sed utrum sit communis
+            <lb ed="#P" n="56"/>una omnibus, an singuli sapientes suas habeant,
+            <lb ed="#P" n="57"/>sicuti animas vel mentes suas, hoc nondum tenemus.
+            <lb ed="#P" n="58"/>E. Ita est.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e2229">
+          <head xml:id="aldx7s-x1ez62-Hd1e2231">Caput 10</head>
+          <p xml:id="aldx7s-x1ez62-d1e2233">
+            <cb ed="#P" n="b"/>
+            <!--1256-->
+            <lb ed="#P" n="59"/>CAPUT X. — Una est sapientia lux omnibus sapienti-
+            <lb ed="#P" n="60"/>bus communis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2244" n="28">
+            <lb ed="#P" n="61"/>A. Quid? hoc quod tenemus vel esse sapientiam,
+            <lb ed="#P" n="62"/>vel sapientes, et beatos esse omnes homines velle,
+            <lb ed="#P" n="63"/>ubi videmus? Nam hoc te videre, et verum ese
+            <lb ed="#P" n="64"/>nullo modo utique dubitaverim. Hoc ergo verum s
+            <lb ed="#P" n="65"/>vides ut cogitationem tuam, quam si mihi non enun-
+            <lb ed="#P" n="66"/>ties, ego prorsus ignoro? an ita ut intelligas eta m
+            <lb ed="#P" n="67"/>videri posse hoc verum, tametsi mihi abs te non dic-
+            <lb ed="#P" n="68"/>tur? E. Imo ita nt abs te quoque, etiam me invito, v-
+            <lb ed="#P" n="69"/>deri posse non dubitem. A. Quod ergo unum verun
+            <lb ed="#P" n="70"/>videmus ambo singulis mentibus, nonne utrique no-
+            <lb ed="#P" n="71"/>strum commune est? E. Manifestissime. A. Item
+            <lb ed="#P" n="72"/>credo te non negare studendum esse sapientiae, atque
+            <lb ed="#P" n="73"/>bhoc verum esse concedere. E. Prorsus non dubito.
+            <lb ed="#P" n="74"/>A. Hoc item vcrum, et unum esse, et omnibus qui
+            <lb ed="#P" n="75"/>hoc sciunt, ad videndum esse commune, quamr
+            <lb ed="#P" n="76"/>unusquisque id nec mea, nec tua, nec cujusquam al-
+            <lb ed="#P" n="77"/>terius, sed sua mente conspiciat, cum id quod conspi
+            <lb ed="#P" n="78"/>citur, omnibus conspicientibus communiter prasto
+            <lb ed="#P" n="79"/>sit, numquid, negare poterimus? E. Nullo mod
+            <lb ed="#P" n="80"/>A. Item, juste esse videndum, deterioria melioribus
+            <lb ed="#P" n="81"/>esse subdenda, et paria paribus comparanda, et p
+            <lb ed="#P" n="82"/>pria suis quibusque tribuenda, nonne fateberis es
+            <lb ed="#P" n="83"/>verissimum, et tam mihi quam tibi atque omnibus id
+            <lb ed="#P" n="84"/>videntibus praesto esse communiter ? E.. Assentior.
+            <lb ed="#P" n="85"/>A. Quid incorruptum melius esse corrupto, etr-
+            <lb ed="#P" n="86"/>num temporali, inviolabile violabili, poteris negare?
+            <lb ed="#P" n="87"/>E. Quis potest A. Hoc ergo verum potest quisqu
+            <lb ed="#P" n="88"/>suum proprium dicere, cum incom:nutabiliter con-
+            <lb ed="#P" n="89"/>templandum adsit omnibus qui hoc contemplari u-
+            <lb ed="#P" n="90"/>lent? E. Nullus hoc vere dixerit suum esse proprium,
+            <lb ed="#P" n="91"/>cum tam sit unum atque omnibus commune quam
+            <lb ed="#P" n="92"/>verum est. A. Item a corruptione avertendum ani-
+            <lb ed="#P" n="93"/>mum, atque ad incorruptionem convertendum esse, i
+            <lb ed="#P" n="94"/>est non corruptionem, sed incorruptionem diligendam
+            <lb ed="#P" n="95"/>esse quis negat ? Aut quis cum verum esse fateatar,
+            <lb ed="#P" n="96"/>non etiam incommutabile intelligat, atque omnibus
+            <lb ed="#P" n="97"/>mentibus id valentibus intueri, communiter pras
+            <lb ed="#P" n="98"/>esse videat ? E. Verissimum est. A. Quid ? ear vium
+            <lb ed="#P" n="99"/>quae nullis adversitatibus de certa et honesta senten-
+            <lb ed="#P" n="100"/>tia demovetur, dubitabit aliquis esse meliorem, quam
+            <lb ed="#P" n="101"/>eam quae facile incommodis temporalibus frangitur
+            <lb ed="#P" n="102"/>atque subvertitur ? E. Quis dubitaverit?
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2338" n="29">
+            <lb ed="#P" n="103"/>A. Jam hujusmodi plura non quueram: ssts
+            <lb ed="#P" n="104"/>enim est quod istas tanquam regulas, et quaedam la-
+            <lb ed="#P" n="105"/>mina virtutum, et vera et incommntabilia, et sir
+            <lb ed="#P" n="106"/>singula sive communiter adesse ad contempla
+            <lb ed="#P" n="107"/>dum eis qui haec valent sua quisque ratione ac mente
+            <lb ed="#P" n="108"/>conspicere, pariter mecum vides certissimumque ese
+            <lb ed="#P" n="109"/>concedis. Sed sane quaro utrum haec tibi videantu
+            <lb ed="#P" n="110"/>ad sapientiam pertinere. Nam credo videri tibi eun
+            <lb ed="#P" n="111"/>qui sapientiam assecutus est, esse sapientem. E.V
+            <lb ed="#P" n="112"/>detur omnino. A. Quid? ille qui juste vivit, possetn
+            <lb ed="#P" n="113"/>ita vivere, nisi videret quae inferiora quibus potiori
+            <lb ed="#P" n="114"/>bus subdat, et quae paria sibimet copulet, et que
+            <lb ed="#P" n="115"/>propria suis quibusque distribuat? E. Non posee
+            <lb ed="#P" n="116"/>A. Qui ergo hec videt, num eum negabis sapienter
+            <lb ed="#P" n="117"/>videre ? E. Non nego. A. Quid? ille qui prudenter vi-
+            <pb ed="#L" n="629"/>
+            <cb ed="#P" n="a"/>
+            <!--1257-->
+            <lb ed="#P" n="1"/>vit, nonne eligit incorruptionem, et eam corruptioni
+            <lb ed="#P" n="2"/>praeponandam esse decernit? E. Manifestissime? A. Com
+            <lb ed="#P" n="3"/>ergo id eligit quo convertat animum, quod eligendum
+            <lb ed="#P" n="4"/>esse nemo ambigit, num negari potest sapienter eli-
+            <lb ed="#P" n="5"/>gere? E. Nullo modo negaverim. A. Cum ergo ad id
+            <lb ed="#P" n="6"/>quod sapienter eligit convertit animum, sapienter uti-
+            <lb ed="#P" n="7"/>que convertit. E. Certissimum est. A. Et qui ab eo
+            <lb ed="#P" n="8"/>quod sapienter eligit, et quo se sapienter convertit,
+            <lb ed="#P" n="9"/>nullis terroribus ponisque depellitur, sapienter sine
+            <lb ed="#P" n="10"/>dubio facit. E. Prorsus sine dubio. A. Manifestissi-
+            <lb ed="#P" n="11"/>munm est igitur omnes has, quas regulas diximus et
+            <lb ed="#P" n="12"/>lumina virtutum, ad sapientiam pertinere: quan-
+            <lb ed="#P" n="13"/>doquidem quanto magis quisque ad agendam vitam
+            <lb ed="#P" n="14"/>eis utitur, et secundum haec agit vitam, tanto magis
+            <lb ed="#P" n="15"/>vivit facitque sapienter; omne autem quod sapienter
+            <lb ed="#P" n="16"/>fit, non potest recte dici a sapientia esse separatum.
+            <lb ed="#P" n="17"/>E. Omnino ita est. A. Quam ergo verae atque incom-
+            <lb ed="#P" n="18"/>mutabiles sunt regulae numerorum, quorum rationem
+            <lb ed="#P" n="19"/>atque veritatem incommutabiliter atque communiter
+            <lb ed="#P" n="20"/>omnibus eam cernentibus, praesto esse dixisti; tam
+            <lb ed="#P" n="21"/>sunt verae atque incommutabiles regulae sapientie,
+            <lb ed="#P" n="22"/>de quibus paucis nunc singillatim interrogatus respon-
+            <lb ed="#P" n="23"/>disti esse veras atque manifestas, easque omnibus
+            <lb ed="#P" n="24"/>qui haec intueri valent, communes ad contemplandum
+            <lb ed="#P" n="25"/>adesse concedis.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e2435">
+          <head xml:id="aldx7s-x1ez62-Hd1e2437">Caput 11</head>
+          <p xml:id="aldx7s-x1ez62-d1e2439">
+            <lb ed="#P" n="26"/>CAPUT XI. — Sapientia et numerus an idem, an
+            <lb ed="#P" n="27"/>alterum ab altero vel in altero existat.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2446" n="30">
+            <lb ed="#P" n="28"/>E. Dubitare non possum. Sed pervellem scire
+            <lb ed="#P" n="29"/>utrum uno aliquo genere contineantur haec duo, sa-
+            <lb ed="#P" n="30"/>pientia scilicet et numerus, quia conjuncta etiam in
+            <lb ed="#P" n="31"/>Scripturis sanctis haec posita esse commemorasti ; an
+            <lb ed="#P" n="32"/>alterum existat ab altero, aut alterum in altero con-
+            <lb ed="#P" n="33"/>sistat, veluti numerus a sapientia, vel in sapientia.
+            <lb ed="#P" n="34"/>Nam sapientiam existere a numero, aut consistere in
+            <lb ed="#P" n="35"/>numero, non ausim dicere: nescio enim quomodo,
+            <lb ed="#P" n="36"/>quia multos novi numerarios aut numeratores, vel si
+            <lb ed="#P" n="37"/>quo alio nomine vocandi sunt, qui summe atque mi-
+            <lb ed="#P" n="38"/>rabiliter computam, sapientes autem perpaucos, aut
+            <lb ed="#P" n="39"/>forsitan neminem, longe venerabilior mihi occurrit
+            <lb ed="#P" n="40"/>sapientia quam numerus. A. Rem dicis quam ego quo-
+            <lb ed="#P" n="41"/>que mirari soleo. Nam cum incommutabilem verita-
+            <lb ed="#P" n="42"/>tem numerorum mecum ipse considero, et ejus quasi
+            <lb ed="#P" n="43"/>cubile ac penetrale vel regionem quamdam, vel si
+            <lb ed="#P" n="44"/>quod aliud nomen aptum inveniri potest, quo nomi-
+            <lb ed="#P" n="45"/>nemus quasi habitaculum quoddam sedemque nume-
+            <lb ed="#P" n="46"/>rorum; longe removeor a corpore: et inveniens for-
+            <lb ed="#P" n="47"/>tasse aliquid quod cogitare possim, non tamen ali-
+            <lb ed="#P" n="48"/>quid inveniens quod verbis proferre sufficiam, redeo
+            <lb ed="#P" n="49"/>tanquam lassatus in haec nostra, ut loqui possim, et
+            <lb ed="#P" n="50"/>ea quae ante oculos sita sunt dico, sicut dici solent.
+            <lb ed="#P" n="51"/>Hoc mibi accidit etiam cum de sapientia quantum va-
+            <lb ed="#P" n="52"/>leo, vigilantissime atque intentissime cogito. Et pro-
+            <lb ed="#P" n="53"/>pterea multum miror, cum haec duo sint in secretis-
+            <lb ed="#P" n="54"/>sima certissimaque veritate, accedente etiam testi-
+            <lb ed="#P" n="55"/>monio Scripturarum, quo commemoravi conjuncte
+            <lb ed="#P" n="56"/>illa posita; plurimum miror, ut dixi, quare nume-
+            <lb ed="#P" n="57"/>rus vilis sit multitudini hominum, et chara sapien-
+            <lb ed="#P" n="58"/>tia. Sed nimirum illud est, quod una quaedam ea-
+            <cb ed="#P" n="b"/>
+            <!--1258-->
+            <lb ed="#P" n="59"/>demque res est ; verumtamen quoniam nihilominus in
+            <lb ed="#P" n="60"/>divinis Libris de sapientia dicitur, quod attingit a fne
+            <lb ed="#P" n="61"/>usque ad finem fortiter, et disponit omnia suaviter
+            <lb ed="#P" n="62"/>(Sap. vitt, 1), sa potentia qua fortiter a fine usque ad
+            <lb ed="#P" n="63"/>finem attingit, numerus fortasse dicitur : ea vero qua
+            <lb ed="#P" n="64"/>disponit omnia suaviter, sapientia proprie jam voca-
+            <lb ed="#P" n="65"/>tur; cum sit utrumque unius ejusdemque sapientiae.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2535" n="31">
+            <lb ed="#P" n="66"/>31. Sed quia dedit numeros omnibus rebus etiam
+            <lb ed="#P" n="67"/>infimis, et in fine rerum locatis; et corpora enim
+            <lb ed="#P" n="68"/>omnia quamvis in rebus extrema sint, habent nume-
+            <lb ed="#P" n="69"/>ros suos; sapere autem non dedit corporibus, neque
+            <lb ed="#P" n="70"/>animis omnibus, sed tantum rationalibus, tanquam in
+            <lb ed="#P" n="71"/>eis sibi sedem locaverit, de qua disponat omnia illa
+            <lb ed="#P" n="72"/>etiam infima quibus numeros dedit: itaque quoniam
+            <lb ed="#P" n="73"/>de corporibus facile judicamus, tanquam de rebus
+            <lb ed="#P" n="74"/>quae infra nos ordinatae sunt, quibus impressos nume-
+            <lb ed="#P" n="75"/>ros infra nos esse cernimus; et eos propterea vilius ha-
+            <lb ed="#P" n="76"/>bemus. Sed cum coeperimus tanquam sursum versus re-
+            <lb ed="#P" n="77"/>currere, invenimus eos etiam nostras mentes transcen-
+            <lb ed="#P" n="78"/>dere, atque incommutabiles in ipsa manere veritate.
+            <lb ed="#P" n="79"/>Et quia sapere pauci possunt, numerare autem etiam
+            <lb ed="#P" n="80"/>stultis concessum est, mirantur homines sapientiam,
+            <lb ed="#P" n="81"/>numerosque contemnunt. Docti autem et studiosi,
+            <lb ed="#P" n="82"/>quanto remotiores sunt a labe terrena, tanto magis et
+            <lb ed="#P" n="83"/>numerum et sapientiam in ipsa veritate contuentur,
+            <lb ed="#P" n="84"/>et utrumque charum habent: et in ejus veritatis com-
+            <lb ed="#P" n="85"/>paratione non eis aurum et argentum, et [caetera de
+            <lb ed="#P" n="86"/>quibus homines dimicant, sed ipsi etiam vilescunt sibi.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2583" n="32">
+            <lb ed="#P" n="87"/>Nec mireris numeros ideo viluisse hominibus,
+            <lb ed="#P" n="88"/>et charam esse sapientiam, quia facilius possunt nu-
+            <lb ed="#P" n="89"/>merare quam sapere, cum videas charius illos ba-
+            <lb ed="#P" n="90"/>bere aurum quam lumen lucernae, cui comparatum
+            <lb ed="#P" n="91"/>aurum ridetur. Sed honoratur amplius res longe infe-
+            <lb ed="#P" n="92"/>rior, quia lucernam sibi et mendicus accendit, aurum
+            <lb ed="#P" n="93"/>vero pauci habent ; quanquam sapientia absit ut in
+            <lb ed="#P" n="94"/>comparatione numeri inveniatur inferior, cum eadem
+            <lb ed="#P" n="95"/>sit; sed oculum quo cerni possit, inquirit *. Sed
+            <lb ed="#P" n="96"/>quemadmodum in uno igne consubstantialis, ut ita
+            <lb ed="#P" n="97"/>dicam, sentitur fulgor et calor, nec separari ab invi-
+            <lb ed="#P" n="98"/>cem possunt ; tamen ad ea calor pervenit quae prope
+            <lb ed="#P" n="99"/>admoventur, fulgor vero etiam longius latiusque dif-
+            <lb ed="#P" n="100"/>funditur: sic intelligentim potentia, quae inest sa-
+            <lb ed="#P" n="101"/>pientie, propinquiora fervescunt *, sicuti sunt ani-
+            <lb ed="#P" n="102"/>mae rationales; ea vero quae remotiora sunt, sicuti
+            <lb ed="#P" n="103"/>corpora, non attingit calore sapiendi, sed perfundit
+            <lb ed="#P" n="104"/>lumine numerorum: quod tibi fortassis obscurum est.
+            <lb ed="#P" n="105"/>Non enim ulla visibilis similitudo invisibili rei potest
+            <lb ed="#P" n="106"/>ad omnem convenientiam coaptari. Tantum illud at-
+            <lb ed="#P" n="107"/>tende, quod et quaestioni quam suscepimus satis est,
+            <lb ed="#P" n="108"/>et humilioribus etiam mentibus, quales nos sumus,
+            <lb ed="#P" n="109"/>sese manifestat, quia etsi clarum nobis esse non pot-
+            <lb ed="#P" n="110"/>est utrum in sapientia, vel ex sapientia numerus, an
+            <lb ed="#P" n="111"/>ipsa sapientia ex numero, an in numero sit, an
+            <lb ed="#P" n="112"/>utrumque nomen unius rei possit ostendi; illud certe
+            <lb ed="#P" n="113"/>manifestum est utrumque verum esse, et incommu-
+            <lb ed="#P" n="114"/>verum. .
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e2647">
+          <head xml:id="aldx7s-x1ez62-Hd1e2649">Caput 12</head>
+          <p xml:id="aldx7s-x1ez62-d1e2651">
+            <pb ed="#L" n="630"/>
+            <cb ed="#P" n="a"/>
+            <!--1259-->
+            <lb ed="#P" n="1"/>CAPUT XII. — Una et incommutatilis in omnibus intel-
+            <lb ed="#P" n="2"/>ligentibus veritas, eaque nostra mente superior.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2664" n="33">
+            <lb ed="#P" n="3"/>Quapropter nullo modo negaveris esse incom-
+            <lb ed="#P" n="4"/>mutabilem veritatem, heec omnia quae incommutabi-
+            <lb ed="#P" n="5"/>liter vera sunt continentem ; quam non possis dicere
+            <lb ed="#P" n="6"/>tuam vel meam, vel cujusquam hominis, sed omni-
+            <lb ed="#P" n="7"/>bus incommutabilia vera cernentibus, tanquam miris
+            <lb ed="#P" n="8"/>modis secretum et publicum lumen, praesto esse ac
+            <lb ed="#P" n="9"/>se praebere communiter : omne autem quod commu-
+            <lb ed="#P" n="10"/>niter omnibus ratiocinantibus atque intelligentibus
+            <lb ed="#P" n="11"/>proesto est, ad ullius eorum proprie naturam perti-
+            <lb ed="#P" n="12"/>nere quis dixerit? Meministi enim, ut opinor, quid de
+            <lb ed="#P" n="13"/>sensibus corporis paulo ante tractatum sit; ea scilicet
+            <lb ed="#P" n="14"/>quae oculorum vel aurium sensu communiter tangi-
+            <lb ed="#P" n="15"/>mus, sicuti sunt colores et soni, quos ego et tu simul
+            <lb ed="#P" n="16"/>videmus, vel simul audimus, non pertinere ad ocu-
+            <lb ed="#P" n="17"/>lorum nostrorum auriumve naturam, sed ad sentien-
+            <lb ed="#P" n="18"/>dum nobis esse communia. Sic ergo etiam illa quae
+            <lb ed="#P" n="19"/>ego et tu communiter proprio quisque mente conspi-
+            <lb ed="#P" n="20"/>cimus, nequaquam dixeris ad mentis alicujus nostrum
+            <lb ed="#P" n="21"/>pertinere naturam. Duorum enim oculi quod simul
+            <lb ed="#P" n="22"/>vident, nec hujus nec illius oculos esse poteris dicere,
+            <lb ed="#P" n="23"/>sed aliquid tertium in quod utriusque conferatur aspe-
+            <lb ed="#P" n="24"/>ctus. E. Apertissimum atque verissimum est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2714" n="34">
+            <lb ed="#P" n="25"/>A. Hanc ergo veritatem, de qua jam diu logui-
+            <lb ed="#P" n="26"/>mur, et in qua una tam multa conspicimus, excellen-
+            <lb ed="#P" n="27"/>tiorem putas esse quam mens nostra est, an equalem
+            <lb ed="#P" n="28"/>mentibus nostris, an etiam inferiorem ? Sed si esset
+            <lb ed="#P" n="29"/>inferior, non secundum illam, sed de illa judicaremus,
+            <lb ed="#P" n="30"/>sicut judicamus de corporibus, quia infra sunt, et di-
+            <lb ed="#P" n="31"/>cimus ea plerumque non tantum ita esse vel non ita,
+            <lb ed="#P" n="32"/>sed ita vel non ita esse debere: sic et de animis no-
+            <lb ed="#P" n="33"/>stris non solum ita esse animum novimus, sed plerum-
+            <lb ed="#P" n="34"/>que etiam ita esse debere. Et de corporibus quidem
+            <lb ed="#P" n="35"/>sic judicamus, cum dicimus, Minus candidum est
+            <lb ed="#P" n="36"/>quam debuit; aut, minus quadrum, et multa similiter :
+            <lb ed="#P" n="37"/>de animis vero, Minus aptus est quam debet ; aut, mi-
+            <lb ed="#P" n="38"/>nas lenis ; aut minus vehemens, sicat nostrorum mo-
+            <lb ed="#P" n="39"/>rum se ratio tulerit. Et judicamus haec secundum
+            <lb ed="#P" n="40"/>illas interiores regulas veritatis, quas communiter
+            <lb ed="#P" n="41"/>cernimus : de ipsis vero nullo modo quis judicat.
+            <lb ed="#P" n="42"/>Cum enim quis dixerit aeterna temporalibus esse po-
+            <lb ed="#P" n="43"/>tiora, ant septem et tria decem esse, nemo dicit ita
+            <lb ed="#P" n="44"/>esse debuisse, sed tantum ita esse cognoscens, non
+            <lb ed="#P" n="45"/>examinator cor-igit, sed tantum laetatur inventor. Si
+            <lb ed="#P" n="46"/>autem esset eequalis mentibus nostris haec veritas,
+            <lb ed="#P" n="47"/>mutabilis etiam ipsa esset. Mentes enim nostree ali-
+            <lb ed="#P" n="48"/>quando eam plus vident, aliquando minus, et ex hoc
+            <lb ed="#P" n="49"/>fatentur se esse mulabiles: cum illa in se manens
+            <lb ed="#P" n="50"/>nec proficiat cum plus a nobis videtur, nec deficiat
+            <lb ed="#P" n="51"/>cum minus, sed integra et incorrupta, et conversos
+            <lb ed="#P" n="52"/>heetificet lumine, et aversos puniat cacitate. Quid,
+            <lb ed="#P" n="53"/>quod etiam de ipsis mentibus nostris secundum illam
+            <lb ed="#P" n="54"/>judicamus, cum de illa nullo modo judicare possimus?
+            <lb ed="#P" n="55"/>Dicimus enim, Minus intelligit quam debet, aut tan-
+            <lb ed="#P" n="56"/>tum quantum debet intelligit. Tantum autem mens
+            <lb ed="#P" n="57"/>debet intelligere, quantum propius admorveri atque
+            <lb ed="#P" n="58"/>inherere potuerit incommutabili veritati. Quare si
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="59"/>nec inferior, nec aequalis est, restat ut sit saperior a
+            <lb ed="#P" n="60"/>que excellentior.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e2798">
+          <head xml:id="aldx7s-x1ez62-Hd1e2800">Caput 13</head>
+          <p xml:id="aldx7s-x1ez62-d1e2802">
+            <lb ed="#P" n="61"/>CAPUT XIII. — Exhortatio ad amplexum veritat
+            <lb ed="#P" n="62"/>quae una beatos facit.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2809" n="35">
+            <lb ed="#P" n="63"/>Promiseram autem, si meministi, me tibi deme
+            <lb ed="#P" n="64"/>straturum esse aliquid quod sit mente nostra atque n-
+            <lb ed="#P" n="65"/>tione sublimius. Ecce tibi est ipsa veritas : amplece
+            <lb ed="#P" n="66"/>illam si potes, et fruere illa, et delectare in Domino,a
+            <lb ed="#P" n="67"/>dabit tibi petitiones cordis tui (Psal. xxxvi, 4) Qud
+            <lb ed="#P" n="68"/>enim petis amplius quam ut beatus sis? Et quid beatis
+            <lb ed="#P" n="69"/>eo qui fruitur inconcussa et incommutabili et exe-
+            <lb ed="#P" n="70"/>lentissima veritate? An vero clamant homines beal
+            <lb ed="#P" n="71"/>se esse, cum pulchra corpora magno desiderio cm-
+            <lb ed="#P" n="72"/>cupita, sire conjugum. sive etiam meretricum as-
+            <lb ed="#P" n="73"/>plexantur; et nos in amplexu veritatis beatos esse n-
+            <lb ed="#P" n="74"/>bitamus? Clamant homines se beatos esse, cum ess
+            <lb ed="#P" n="75"/>aridis faucibus ad fontem abundantem" salubremque
+            <lb ed="#P" n="76"/>perveniunt, aut esurientes prandium coenamve om-
+            <lb ed="#P" n="77"/>tam copiosamque reperiunt; et nos negabimus beau
+            <lb ed="#P" n="78"/>esse, cum irrigamur pascimurque veritate ? Solems
+            <lb ed="#P" n="79"/>audire vozes clamantium se beatos, si jaceant in ross
+            <lb ed="#P" n="80"/>et aliis floribus *, vel etiam unguentis odoratissims
+            <lb ed="#P" n="81"/>perfruantur: quid fragrantius, quid jucundius inspin
+            <lb ed="#P" n="82"/>tione veritatis ? et dubitamus nos cum ab illa inspin-
+            <lb ed="#P" n="83"/>mur, dicere beatos? Multi beatam vitam in can
+            <lb ed="#P" n="84"/>vocum et nervorum et tibiarum sibi constituunt, a
+            <lb ed="#P" n="85"/>cum ea sibi desunt, se miseros judicant; cum autn
+            <lb ed="#P" n="86"/>adsunt, efferuntur leetitia: et nos cum mentibus ne-
+            <lb ed="#P" n="87"/>stris sine ullo strepitu, ut ita dicam, canorum ett
+            <lb ed="#P" n="88"/>cundum quoddam silentium reritatis illabitur, aliam
+            <lb ed="#P" n="89"/>beatam vitam quaerimus, et tam certa et praesentenos
+            <lb ed="#P" n="90"/>fruimur ? Luce auri et argenti, luce gemmarum et ali
+            <lb ed="#P" n="91"/>rum colorum, sive ipsius lucis quae ad hos oculos pe
+            <lb ed="#P" n="92"/>tinet, sive in ignibus terrenis, sive in stellis vel um
+            <lb ed="#P" n="93"/>vel sole, claritate et jucunditate delectati homines, cun
+            <lb ed="#P" n="94"/>ab ista laetitia nullis molestiis, nulla indigentia reu-
+            <lb ed="#P" n="95"/>cantur, beati sibi videntur, et propter haec sempe
+            <lb ed="#P" n="96"/>volunt vivere : et nos in luce veritatis beatam vitum
+            <lb ed="#P" n="97"/>collocare metu imus ?
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2887" n="36">
+            <lb ed="#P" n="98"/>Imo vero quoniam in veritate cognoscitar e
+            <lb ed="#P" n="99"/>tenetur summum bonum, eaque veritas sapientia es
+            <lb ed="#P" n="100"/>cernamus in ea, teneamusque summum bonum, eoq
+            <lb ed="#P" n="101"/>perfruamur. Begtus est quippe qui fruitur summo
+            <lb ed="#P" n="102"/>bono. Heec enim reritas ostendit omnia bona, qu
+            <lb ed="#P" n="103"/>vera sunt, quae sibi pro suo captu intelligentes homi-
+            <lb ed="#P" n="104"/>nes, vel singula, vel plura eligunt, quibus fruant.
+            <lb ed="#P" n="105"/>Sed quemadmodum illi qui in luce solis eligunt qui
+            <lb ed="#P" n="106"/>libenter aspiciant, et eo aspectu leetificantur ; in quibes
+            <lb ed="#P" n="107"/>si qui forte fuerint vegetioribus sanisque et fortissim
+            <lb ed="#P" n="108"/>oculis praediti, nihil libentius quam ipsum solem oe
+            <lb ed="#P" n="109"/>tuentur, qui etiam caetera quibus infirmiores oc
+            <lb ed="#P" n="110"/>deleciantur, illustrat : sic fortis acies mentis et reges
+            <lb ed="#P" n="111"/>cum multa vera et incommutabilia certa ratione co
+            <lb ed="#P" n="112"/>spererit, dirigit se in ipsam veritatem, qua cun
+            <lb ed="#P" n="113"/>monstrantur, eique inhaerens tamquam obliviscitu
+            <lb ed="#P" n="114"/>caetera, et in illa simul omnibus fruitur. Quidquid
+            <pb ed="#L" n="631"/>
+            <cb ed="#P" n="a"/>
+            <!--1261-->
+            <lb ed="#P" n="1"/>enim jucundum est in caeteris veris, ipsa utique veri-
+            <lb ed="#P" n="2"/>tate jucundum est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2937" n="37">
+            <lb ed="#P" n="3"/>Haec est libertas nostra, cum isti subdimur
+            <lb ed="#P" n="4"/>veritati : et ipse est Deus noster qui nos liberat a
+            <lb ed="#P" n="5"/>morte, id est a conditione peccati. Ipsa enim Veritas
+            <lb ed="#P" n="6"/>etiam homo cum hominibus loquens, ait credentibus
+            <lb ed="#P" n="7"/>sibi : Si manseritis in verbo meo,vere discipuli mei estis,
+            <lb ed="#P" n="8"/>et cognoscetis veritatem, et veritas liberabit vos Joan.
+            <lb ed="#P" n="9"/>vin, 31, 32). Nulla enim re fruitur anima cum liber-
+            <lb ed="#P" n="10"/>tate, nisi qua fruitur cum securitate.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e2958">
+          <head xml:id="aldx7s-x1ez62-Hd1e2960">Caput 14</head>
+          <p xml:id="aldx7s-x1ez62-d1e2962">
+            <lb ed="#P" n="11"/>CAPUT XIV. — Veritas possidetur cum securitate.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e2967" n="37b">
+            <lb ed="#P" n="12"/>Nemo autem securus est in iis bonis quae potest
+            <lb ed="#P" n="13"/>invitus amittere. Veritatem autem atque sapientiam
+            <lb ed="#P" n="14"/>nemo amittit ipvitus : non enim locis separari ab ea
+            <lb ed="#P" n="15"/>quisquam potest; sed ea quae dicitur a veritate atque
+            <lb ed="#P" n="16"/>sapientia separatio, perversa voluntas est, qua infe-
+            <lb ed="#P" n="17"/>riora diliguntur. Nemo autem vult aliquid nolens.Ha-
+            <lb ed="#P" n="18"/>bemus igitur qua fruamur omnes eequaliter atque
+            <lb ed="#P" n="19"/>communiter : nullae sunt angustiae, nullus in ea de-
+            <lb ed="#P" n="20"/>fectus. Omnes amatores suos nullo modo sibi invidos
+            <lb ed="#P" n="21"/>recipit, et omnibus communis est, et singulis casta
+            <lb ed="#P" n="22"/>est. Nemo alicui dicit : Recede, ut etiam ego acce-
+            <lb ed="#P" n="23"/>dam; remove manus, ut etiam ego amplectar.
+            <lb ed="#P" n="24"/>Omnes inhaerent, idipsum omnes tangunt *. Cibus
+            <lb ed="#P" n="25"/>ejus nulla ex parte discerpitur; nihil de ipsa bibis
+            <lb ed="#P" n="26"/>quod ego non possim. Non enim ab ejus communione
+            <lb ed="#P" n="27"/>in privatum tuum mutas aliquid; sed quod tu de illa
+            <lb ed="#P" n="28"/>capis, et mihi manet integrum. Quod te inspirat non
+            <lb ed="#P" n="29"/>exspecto ut reddatur abs te, et sic ego inspirer ex eo:
+            <lb ed="#P" n="30"/>non enim aliquid ejus aliquando fit cujusquam unius
+            <lb ed="#P" n="31"/>aut quorumdam proprium, sed simul omnibus tota
+            <lb ed="#P" n="32"/>est communis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3015" n="38">
+            <lb ed="#P" n="33"/>Minus ergo ea quae tangimus, vel quae gustamus,
+            <lb ed="#P" n="34"/>vel quae olfacimus, huic sunt veritati similia, sed
+            <lb ed="#P" n="35"/>magis ea quaee audimus et cernimus : quia et omne
+            <lb ed="#P" n="36"/>verbum a quibus auditur, totum auditur ab omnibus,
+            <lb ed="#P" n="37"/>et simul a singulis totum; et species omnis quae oculis
+            <lb ed="#P" n="38"/>adjacet, quanta videtur ab uno, tanta et ab alio simul.
+            <lb ed="#P" n="39"/>Sed multum longo intervalio sunt ista similia : nec
+            <lb ed="#P" n="40"/>tota enim simul sonat quaelibet vox, quia per tempora
+            <lb ed="#P" n="41"/>tenditur et producitur, et aliud ejus prius sonat,aliud
+            <lb ed="#P" n="42"/>posterius ; et species omnis visibilis tanquam intume-
+            <lb ed="#P" n="43"/>scit per locos, nec ubique tota est. Et certe omnia
+            <lb ed="#P" n="44"/>baec auferuntur invito, et quominus eis frui possimus,
+            <lb ed="#P" n="45"/>quibusdam impedimur angustiis. Nam et si posset esse
+            <lb ed="#P" n="46"/>cujusquam suavis cantus sempiternus,et studiosi ejus
+            <lb ed="#P" n="47"/>certatim ad eum audiendum venirent,coarctarent sese,
+            <lb ed="#P" n="48"/>atque pugnarent de locis, quanto plures essent, ut
+            <lb ed="#P" n="49"/>cantanti esset quisque propinquior, et in audiendo ni-
+            <lb ed="#P" n="50"/>hil tenerent manere secum, sed omnibus vocibus fu-
+            <lb ed="#P" n="51"/>gientibus tangerentur. Solem autem istum si vellem
+            <lb ed="#P" n="52"/>intueri, atque id pertinaciter possem; et in occasu
+            <lb ed="#P" n="53"/>me desereret, et subvelaretur nubilo, et multis aliis
+            <lb ed="#P" n="54"/>obstaculis voluptatem videndi eum invitus amitterem.
+            <lb ed="#P" n="55"/>Postremo etiam si adesset semper suavitas, et tucis
+            <lb ed="#P" n="56"/>videnti, et vocis audienti, quid magnum ad me perve-
+            <lb ed="#P" n="57"/>niret, cum mihi esset commune cum belluis? At illa
+            <cb ed="#P" n="b"/>
+            <!--1262-->
+            <lb ed="#P" n="58"/>veritatis et sapientiae pulchritudo, tantum adsit per-
+            <lb ed="#P" n="59"/>severans voluntas fruendi, nec multitudine audientium
+            <lb ed="#P" n="60"/>constipata secludit venientes, nec peragitur tempore,
+            <lb ed="#P" n="61"/>nec migrat locis, nec nocte intercipitur, nec umbra
+            <lb ed="#P" n="62"/>intercluditur, nec sensibus corporis subjacet. De toto
+            <lb ed="#P" n="63"/>mundo ad se conversis qui diligunt eam, omnibus
+            <lb ed="#P" n="64"/>proxima est, omnibus sempiterna; nullo loco est,
+            <lb ed="#P" n="65"/>nusquam deest; foris admonet, intus docet ; cernentes
+            <lb ed="#P" n="66"/>se commutat omnes in melius, a nullo in deterius
+            <lb ed="#P" n="67"/>commutatur ; nullus de illa judicat, nullus sine illa
+            <lb ed="#P" n="68"/>judicat bene. Ac per hoc eam manifestum est menti-
+            <lb ed="#P" n="69"/>bus nostris, quae ab ipsa una fiunt singulee sapientes,
+            <lb ed="#P" n="70"/>et non de ipsa, sed per ipsam de caeteris judices, sine
+            <lb ed="#P" n="71"/>aubitatione esse potiorem.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e3108">
+          <head xml:id="aldx7s-x1ez62-Hd1e3110">Caput 15</head>
+          <p xml:id="aldx7s-x1ez62-d1e3112">
+            <lb ed="#P" n="72"/>CAPUT XV. — Deum esse ex ratione fuse explicata jam
+            <lb ed="#P" n="73"/>certo cognoscitur.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3119" n="39">
+            <lb ed="#P" n="74"/>Tu autem concesseras, si quid supra mentes
+            <lb ed="#P" n="75"/>nostras esse monstrarem, Deum te esse confessurum,
+            <lb ed="#P" n="76"/>siadhuc nihil esset superius. Quam tuam concessionem
+            <lb ed="#P" n="77"/>accipiens dixeram satis esse, ut hoc demonstrarem.
+            <lb ed="#P" n="78"/>Si enim aliquid est excellentius, ille potius Deus est :
+            <lb ed="#P" n="79"/>si autem non est, jam ipsa veritas Deus est. Siveergo
+            <lb ed="#P" n="80"/>illud sit, sive non sit, Deum tamen esse, negare non
+            <lb ed="#P" n="81"/>poteris : quae nobis erat ad disserendum et tractandum
+            <lb ed="#P" n="82"/>quaestio constituta. Nam si te hoc morvet quod apud
+            <lb ed="#P" n="83"/>sacrosanctam disciplinam Christi in fidem recepimus,
+            <lb ed="#P" n="84"/>esse Fatrem Sapientiae; memento nos etiam hoc in
+            <lb ed="#P" n="85"/>fidem accepisse, quod aeterno Patri sit aqualis quae
+            <lb ed="#P" n="86"/>ab ipso genita est Sapientia. Unde nunc nihil quae-
+            <lb ed="#P" n="87"/>rendum est, sed inconcussa fide retinendum. Est
+            <lb ed="#P" n="88"/>enim Deus, et vere summeque est. Quod jam non so-
+            <lb ed="#P" n="89"/>lum indubitatum, quantum arbitror, fide retinemus,
+            <lb ed="#P" n="90"/>sed etiam certa, quamvis adhuc tenuissima, forma
+            <lb ed="#P" n="91"/>cognitionis attingimus; quod quaestioni susceptae suf-
+            <lb ed="#P" n="92"/>ficit, ut caetera quae ad rem pertinent, explicare pos-
+            <lb ed="#P" n="93"/>simus : nisi quid habes adversus ista quod opponas.
+            <lb ed="#P" n="94"/>E. Ego vero incredibili omnino, et quam tibi verbis
+            <lb ed="#P" n="95"/>explicare non possum, laetitia perfusus accipio ista,
+            <lb ed="#P" n="96"/>et clamo esse certissima. Clamo autem voce interiore,
+            <lb ed="#P" n="97"/>qua exaudiri cupio ab ipsa veritate, et illi inbeerere :
+            <lb ed="#P" n="98"/>quod non solum bonum, sed etiam summum bonum,
+            <lb ed="#P" n="99"/>et beatificum esse concedo.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3178" n="40">
+            <lb ed="#P" n="100"/>A. Recte sane; etiam ego plurimum gau-
+            <lb ed="#P" n="101"/>deo. Sed, quaeso te, numquid jam sapientes et
+            <lb ed="#P" n="102"/>beati sumus? an adhuc tendimus eo, ut id nobis esse
+            <lb ed="#P" n="103"/>proveniat? E. Eo nos potius tendere existimo. A.
+            <lb ed="#P" n="104"/>Unde ergo ista comprehendis, quibus veris certisque
+            <lb ed="#P" n="105"/>gaudere te clamas, et hoc ad sapientiam pertinere
+            <lb ed="#P" n="106"/>concedis? an quisquam insipiens potest nosse sapien-
+            <lb ed="#P" n="107"/>tiam? E. Quamdiu insipiens est, non potest. A. Tu
+            <lb ed="#P" n="108"/>ergo jam sapiens es, aut nondum nosti sapientiam.
+            <lb ed="#P" n="109"/>E. Non sum quidem adhuc sapiens, sed nec insipien-
+            <lb ed="#P" n="110"/>tem me dixerim, in quantum novi sapientiam; quo-
+            <lb ed="#P" n="111"/>niam et certa sunt ista quae novi, et ad sapientiam
+            <lb ed="#P" n="112"/>pertinere, negare non possum. A. Dic, quaeso te,
+            <lb ed="#P" n="113"/>nonne fateberis eum qui non est justus, injustum
+            <lb ed="#P" n="114"/>esse; et qui non est prudens, imprudentem esse; et
+            <lb ed="#P" n="115"/>qui non est temperans, intemperantem? an dubitari
+            <lb ed="#P" n="116"/>de his aliquid potest? E. Fateor bominem, quando
+            <pb ed="#L" n="632"/>
+            <cb ed="#P" n="a"/>
+            <!--1263-->
+            <lb ed="#P" n="1"/>justus non est, injustum esse: hoc etiam de prudente
+            <lb ed="#P" n="2"/>et temperante responderim. A. Cur ergo et quando
+            <lb ed="#P" n="3"/>sapiens non est, non sit insipiens? E. Hoc quoque
+            <lb ed="#P" n="4"/>fateor, quando quisque sapiens non est, eum esse
+            <lb ed="#P" n="5"/>insipientem. A. Nune ergo tu quid horum es? E.
+            <lb ed="#P" n="6"/>Quodlibet horum me appelles, nondum audeo me
+            <lb ed="#P" n="7"/>dicere sapientem; et ex iis quae concessi, video esse
+            <lb ed="#P" n="8"/>consequens ut me insipientem non dubitem dicere.
+            <lb ed="#P" n="9"/>A. Novit ergo insipiens sapientiam. Non enim, sicut
+            <lb ed="#P" n="10"/>jam dictum est, certus esset velle se esse sapientem,
+            <lb ed="#P" n="11"/>idque oportere, nisi notio sapientiae menti ejus inhee-
+            <lb ed="#P" n="12"/>reret, sicut earum rerum de quibus singillatim inter-
+            <lb ed="#P" n="13"/>regatus respondisti, quae ad ipsam sapientiam perti-
+            <lb ed="#P" n="14"/>nent,quarum cognitione letatus es. E. Ita estut dicis.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e3255">
+          <head xml:id="aldx7s-x1ez62-Hd1e3257">Caput 16</head>
+          <p xml:id="aldx7s-x1ez62-d1e3259">
+            <lb ed="#P" n="15"/>CAPUT XVI. — Sapientia studiosis sui inquisitoribus
+            <lb ed="#P" n="16"/>sese in via ostendit, numeris videlicet cuique rei im-
+            <lb ed="#P" n="17"/>pressis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3268" n="41">
+            <lb ed="#P" n="18"/>A. Quid igitur aliud agimus cum studemus esse
+            <lb ed="#P" n="19"/>sapientes, nisi ut quanta possumus alacritate, ad id
+            <lb ed="#P" n="20"/>quod mente contingimus, totam animam nostram
+            <lb ed="#P" n="21"/>quodammodo colligamus, et ponamus ibi, atque sta-
+            <lb ed="#P" n="22"/>biliter infigamus; ut non jam privato suo gaudeat
+            <lb ed="#P" n="23"/>quod implicavit rebus transeuntibus, sed exuta omni-
+            <lb ed="#P" n="24"/>bus temporum et locorum affectionibus apprehendat
+            <lb ed="#P" n="25"/>id quod unum atque idem semper est? Sicut enim tota
+            <lb ed="#P" n="26"/>vita corporis est anima, sic beata vita animse Deus
+            <lb ed="#P" n="27"/>est. Quod dum agimus, donec peragamus, in via su-
+            <lb ed="#P" n="28"/>mus. Et quod istis veris et certis bonis, quamvis ad-
+            <lb ed="#P" n="29"/>huc in hoc tenebroso itinere coruscantibus, gaudere
+            <lb ed="#P" n="30"/>concessum est, vide utrum hoc sit quod scriptum est
+            <lb ed="#P" n="31"/>de sapientia, quid agat cum amatoribus suis cum ad
+            <lb ed="#P" n="32"/>eam veniunt, et eam quaerunt : dictum est enim, In
+            <lb ed="#P" n="33"/>viis ostendet se illis hilariter, et omni providentia occur-
+            <lb ed="#P" n="34"/>ret illis (Sap. vi, 17). Quoquo enim te verteris, vestigiis
+            <lb ed="#P" n="35"/>quibusdam, quae operibus suis impressit, loquitur
+            <lb ed="#P" n="36"/>tibi, et te in exteriora relabentem, ipsis exteriorum
+            <lb ed="#P" n="37"/>formis intro revocat; ut quidquid te delectat in cor-
+            <lb ed="#P" n="38"/>pore, et per corporeos illicit sensus, videas esse nu-
+            <lb ed="#P" n="39"/>merosum, et quaeras unde sit, et in teipsum redeas,
+            <lb ed="#P" n="40"/>atque intelligas te id quod attingis sensibus corporis,
+            <lb ed="#P" n="41"/>probare aut improbare non posse, nisi apud te habeas
+            <lb ed="#P" n="42"/>quasdam pulchritudinis leges, ad quasreferas quaeque
+            <lb ed="#P" n="43"/>pulchra sentis exterius.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3327" n="42">
+            <lb ed="#P" n="44"/>Intuere colum et terram et mare, et quae-
+            <lb ed="#P" n="45"/>cumque in eis vel desuper fulgent, vel deorsum
+            <lb ed="#P" n="46"/>repunt vel volant vel natant; formas habent, quia
+            <lb ed="#P" n="47"/>numeros habent : adime illis hoec, nihil erunt. A
+            <lb ed="#P" n="48"/>quo ergo sunt, nisi a quo numerus; quandoquidem
+            <lb ed="#P" n="49"/>in tantom illis est esse, in quantum numerosa esse?
+            <lb ed="#P" n="50"/>Et omnium quidem formarum corporearum artifi-
+            <lb ed="#P" n="51"/>ces homines in arte habent numeros, quibus coaptant
+            <lb ed="#P" n="52"/>opera sua : et tamdiu manus atque instrumenta
+            <lb ed="#P" n="53"/>in fabricando movent, donec illud quod formatur fo-
+            <lb ed="#P" n="54"/>ris, ad eam quae intus est lucem numerorum relatum,
+            <lb ed="#P" n="55"/>quantum potest impetret absolutionem, placeatque per
+            <lb ed="#P" n="56"/>interpretem sensum interno judici supernos numeros
+            <lb ed="#P" n="57"/>intuenti. Quaere deinde artificis ipsius membra quis
+            <lb ed="#P" n="58"/>moveat; numerus erit : nam moventur etiam illa nu-
+            <lb ed="#P" n="59"/>merose. Et si detrahas de manibus opus, ct de animo
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="60"/>intentionem fabricandi, motusque ille membrorum
+            <lb ed="#P" n="61"/>ad delectationem referatur, saltatio vocabitur. Quem
+            <lb ed="#P" n="62"/>ergo quid in saltatione delectet; respondebit tibi
+            <lb ed="#P" n="63"/>numerus : Ecce sum. Inspice jam pulchritudinemfo
+            <lb ed="#P" n="64"/>mati corporis; numeri tenentur in loco. Inspice pu-
+            <lb ed="#P" n="65"/>chritudinem mobilitatis in corpore; numeri versa-
+            <lb ed="#P" n="66"/>tur in tempore. Intra ad artem unde isti procedus
+            <lb ed="#P" n="67"/>quaere in ea tempus et locum; nunquam erit, nusqua
+            <lb ed="#P" n="68"/>erit; vivit in ea tamen numerus : nec ejus regio su-
+            <lb ed="#P" n="69"/>tiorum est, nec aetas dierum; et discendae arti tama
+            <lb ed="#P" n="70"/>cum se accommodant, qui se artifices fieri volun
+            <lb ed="#P" n="71"/>corpus suum per loca et tempora movent, animun
+            <lb ed="#P" n="72"/>vero per tempora : accessu quippe temporis perition
+            <lb ed="#P" n="73"/>fiunt. Transcende ergo et animum artificis, nt n-
+            <lb ed="#P" n="74"/>merum sempiternum videas; jam tibi sapientia à
+            <lb ed="#P" n="75"/>ipsa interiore sede fulgebit, et de ipso secretario v
+            <lb ed="#P" n="76"/>ritatis : quae si adhuc languidiorem aspectum tuum
+            <lb ed="#P" n="77"/>reverberat, refer oculum mentis in illam viam, ui
+            <lb ed="#P" n="78"/>se ostendebat hilariter. Memento sane distulise
+            <lb ed="#P" n="79"/>visionem quam fortior saniorque repetas.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3410" n="43">
+            <lb ed="#P" n="80"/>Vae qui derelinquunt te ducem, et oberraniu
+            <lb ed="#P" n="81"/>vestigiis tuis, qui nutus tuos pro te amant, et oblii
+            <lb ed="#P" n="82"/>scuntur quid innuas, o suavissima lux purgatae menti
+            <lb ed="#P" n="83"/>sapientia! non enim cessas innuere nobis qued
+            <lb ed="#P" n="84"/>quanta sis; et nutus tui sunt omne creaturarum
+            <lb ed="#P" n="85"/>decus. Et artifex enim quodammodo innui spectati
+            <lb ed="#P" n="86"/>operis sui de ipsa operis pulchritudine, ne ibi tot
+            <lb ed="#P" n="87"/>haereat, sed speciem corporis fabricati sic percurnt
+            <lb ed="#P" n="88"/>oculis, ut in eam qui fabricaverit recurrat affecn.
+            <lb ed="#P" n="89"/>Similes autem sunt hominibus, qui ea quae facis pe
+            <lb ed="#P" n="90"/>te amant, qui cum audiunt aliquem facundum sapie
+            <lb ed="#P" n="91"/>tem, dum nimis suavitatem vocis ejus, et structura
+            <lb ed="#P" n="92"/>syllabarum apte locatarum avidc audiunt, amittun
+            <lb ed="#P" n="93"/>sententiarum principatum, cujus illa verba tanquam
+            <lb ed="#P" n="94"/>signa sonuerunt. Vae qui se avertunt a lumine tno.et
+            <lb ed="#P" n="95"/>obscuritati suae dulciter inheerent! Tanquam enim
+            <lb ed="#P" n="96"/>dorsum ad te ponentes, in carnali opere velut in umn-
+            <lb ed="#P" n="97"/>bra sua defiguntur, et tamen etiam ibi quod eos de-
+            <lb ed="#P" n="98"/>lectat, adhuc habent de circumfulgentia lucis tua '.
+            <lb ed="#P" n="99"/>Sed umbra dum amatur, languidiorem facit oculum
+            <lb ed="#P" n="100"/>animi, et invalidiorem ad perferendum conspectum
+            <lb ed="#P" n="101"/>tuum. Propterea magis magisque homo tenebratur
+            <lb ed="#P" n="102"/>dum sectatur libentius quidquid infirmiorem tolen-
+            <lb ed="#P" n="103"/>bilius excipit. Ex quo incipit non posse videre quoi
+            <lb ed="#P" n="104"/>summe est, et malum putare quidquid fallit impro-
+            <lb ed="#P" n="105"/>vidum, aut illicit indigum ?, aut captum excrucia
+            <lb ed="#P" n="106"/>cum ea pro merito patiatur aversionis sue, et qui-
+            <lb ed="#P" n="107"/>quid justum est, malum esse non possit.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3474" n="44">
+            <lb ed="#P" n="108"/>Si ergo quidquid mutabile aspexeris, vel sensu
+            <lb ed="#P" n="109"/>corporis, vel animi consideratione capere non potes
+            <lb ed="#P" n="110"/>nisi aliqua numerorum forma teneatur, qua detraca
+            <lb ed="#P" n="111"/>in nihil recidat; noli dubitare, ut ista mutabilia non
+            <lb ed="#P" n="112"/>intercipiantur, sed dimensis motibus, et distincta va-
+            <lb ed="#P" n="113"/>rietate formarum, quasi quosdam versus temporam
+            <lb ed="#P" n="114"/>peragant, esse aliquam formam aeternam et incommu-
+            <lb ed="#P" n="115"/>tabilem; quae neque contineatur et quasi diffundatur
+            <pb ed="#L" n="633"/>
+            <cb ed="#P" n="a"/>
+            <!--1265-->
+            <lb ed="#P" n="1"/>locis, neque potendatur atque varieturtemporibus, per
+            <lb ed="#P" n="2"/>quam cuncta ista formari valeant, et pro suo genere
+            <lb ed="#P" n="3"/>implere atque agere locorum ac temporum numeros.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e3508">
+          <head xml:id="aldx7s-x1ez62-Hd1e3510">Caput 17</head>
+          <p xml:id="aldx7s-x1ez62-d1e3512">
+            <lb ed="#P" n="4"/>CAPUT XVII. — Bonum et perfectio quacumque ex
+            <lb ed="#P" n="5"/>Deo est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3519" n="45">
+            <lb ed="#P" n="6"/>Omnis enim res mutabilis, etiam formabilis sit
+            <lb ed="#P" n="7"/>necesse est. Sicut autem mutabile dicimus quod mu-
+            <lb ed="#P" n="8"/>tari potest, ita formabile quod formari potest appel-
+            <lb ed="#P" n="9"/>laverim. Nulla autem res formare seipsam potest :
+            <lb ed="#P" n="10"/>quia nulla res potest dare sibi quod non habet; et
+            <lb ed="#P" n="11"/>utique ut habeat formam, formatur aliquid. Quapro-
+            <lb ed="#P" n="12"/>pter quaelibet res si quam habet formam, non ei opus
+            <lb ed="#P" n="13"/>est accipere quod habet; si qua vero non habet for-
+            <lb ed="#P" n="14"/>mam, non potest a se accip»re quod non habet. Nulla
+            <lb ed="#P" n="15"/>ergo res, ut diximus, formare se potest. Quid autem
+            <lb ed="#P" n="16"/>amplius de mutabilitate corporis et animi dicamus?
+            <lb ed="#P" n="17"/>superius enim satis dictum est. Conficitur itaque, ut
+            <lb ed="#P" n="18"/>et corpus et animus forma quadam incommntabili et
+            <lb ed="#P" n="19"/>semper manente formentur. Cai formae dictum est:
+            <lb ed="#P" n="20"/>Hutabis ea et mutabuntur ; tu autem idem ipse es, et
+            <lb ed="#P" n="21"/>anni tui non deficient (Psal. ct, 27, 28). Annos sine
+            <lb ed="#P" n="22"/>defectu, pro aternitate posuit prophetica locntio. De
+            <lb ed="#P" n="23"/>hac item forma dictum est, quod in seipsa manens
+            <lb ed="#P" n="24"/>innovet omnia (Sap. vi, 27). Hinc etiam comprehen-
+            <lb ed="#P" n="25"/>ditur omnia providentia gubernari. Si enim omnia
+            <lb ed="#P" n="26"/>quae sunt, forma penitus subtracta nulla erunt, forma
+            <lb ed="#P" n="27"/>ipsa incommutabilis, per quam matabilia cuncta sub-
+            <lb ed="#P" n="28"/>sistunt, ut formarum suarum numeris impleantur et
+            <lb ed="#P" n="29"/>aguntur, ipsa est eorum providentia: non enim ista
+            <lb ed="#P" n="30"/>essent, si illa non esset. Intuens ergo etconside-
+            <lb ed="#P" n="31"/>rans universam creaturam, quicumque iter agit ad
+            <lb ed="#P" n="32"/>sapientiam, sentit sapientiam in via se sibi ostendere
+            <lb ed="#P" n="33"/>hilariter, et in omni providentia occurrere sibi : et
+            <lb ed="#P" n="34"/>tanto alacrius ardescit viam istam peragere, quanto
+            <lb ed="#P" n="35"/>et ipsa via per illam pulchra est, ad quam exsestuat
+            <lb ed="#P" n="36"/>pervenire.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3589" n="46">
+            <lb ed="#P" n="37"/>Tu autem si praeter id quod est et non vivit, et
+            <lb ed="#P" n="38"/>id quod est et vivit neque intelligit, et id quod est et
+            <lb ed="#P" n="39"/>virit et intelligit, inveneris aliquod aliud creaturarum
+            <lb ed="#P" n="40"/>genus ; tunc aude dicere aliquod bonum esse, quod
+            <lb ed="#P" n="41"/>non sit ex Deo. Tria enim haec duobus etiam nomit
+            <lb ed="#P" n="42"/>bus enuntiari possunt, si appellentur corpus et vita:
+            <lb ed="#P" n="43"/>quia et illa qua tantum vivit, neque intelligit, qualis
+            <lb ed="#P" n="44"/>est pecorum, et haec quae intelligit, sicuti est homi-
+            <lb ed="#P" n="45"/>num, rectissime vita dicitur. Haec autem duo, id est,
+            <lb ed="#P" n="46"/>corpus et vita, quae quidem creaturae deputantur
+            <lb ed="#P" n="47"/>(nam et Creatoris ipsius vita dicitur, et ea summa vita
+            <lb ed="#P" n="48"/>est) : istae igitur duae creaturae corpus et vita quoniam
+            <lb ed="#P" n="49"/>formabilia sunt, sicuti superius dicta docuerunt,
+            <lb ed="#P" n="50"/>amissaque omnino forma in nihilum recidunt, satis
+            <lb ed="#P" n="51"/>ostendunt se ex illa forma subsistere, quae semper
+            <lb ed="#P" n="52"/>ejusmodi est. Quamobrem quantacumque bona, quam-
+            <lb ed="#P" n="53"/>vis magna, quamvis minima, nisi ex Deo esse non
+            <lb ed="#P" n="54"/>possunt. Quid enim majus in creaturis quam vita in-
+            <lb ed="#P" n="55"/>telligens, aut quid minus potest esse quam corpus?
+            <lb ed="#P" n="56"/>Quae quantumlibet deficiant, et eo tendant ut non
+            <lb ed="#P" n="57"/>sint, tamen aliquid formae illis remanet, ut quoquo
+            <lb ed="#P" n="58"/>modo sint. Quidquid autem formae cuipiam rei defi-
+            <lb ed="#P" n="59"/>cienti remanet ; ex illa forma est quae nescit deficere,
+            <cb ed="#P" n="b"/>
+            <!--1266-->
+            <lb ed="#P" n="60"/>motusque ipsos rerum deficientium vel proficientium
+            <lb ed="#P" n="61"/>excedere numerorum suorum leges non sinit. Quid-
+            <lb ed="#P" n="62"/>quid igitur laudabile advertitur in rerum natura,
+            <lb ed="#P" n="63"/>sive exigua sive ampla laude dignum judicetur, ad ex-
+            <lb ed="#P" n="64"/>cellentissimam et ineffabilem laudem referendum est
+            <lb ed="#P" n="65"/>Conditoris : nisi quid habes ad heec.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e3660">
+          <head xml:id="aldx7s-x1ez62-Hd1e3662">Caput 18</head>
+          <p xml:id="aldx7s-x1ez62-d1e3664">
+            <lb ed="#P" n="66"/>CAPUT XVIII. — Libera voluntas tametsi ad malum
+            <lb ed="#P" n="67"/>usum converti possit, in bonis numeranda est.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3671" n="47">
+            <lb ed="#P" n="68"/>E. Satis mihi persuasum esse fateor, et quem-
+            <lb ed="#P" n="69"/>admodum manifestum fiat, quantum in hac vita atque
+            <lb ed="#P" n="70"/>inter tales, quales nos sumus, potest, Deum esse, et
+            <lb ed="#P" n="71"/>ex Deo esse omnia bona: quandoquidem omnia quae
+            <lb ed="#P" n="72"/>sunt, sive quae intelligunt et vivunt et sunt, sive quae
+            <lb ed="#P" n="73"/>tantum vivunt et sunt, sive qua tantum sunt, ex Deo
+            <lb ed="#P" n="74"/>sunt. Nunc jam tertiam quaestionem videamus, utrum
+            <lb ed="#P" n="75"/>expediri possit, inter bona esse numerandam liberam
+            <lb ed="#P" n="76"/>voluntatem. Quo demonstrato, sine dubitatione con-
+            <lb ed="#P" n="77"/>cedam Deum dedisse nobis eam, darique oportuisse.
+            <lb ed="#P" n="78"/>A. Bene meministi proposita, et secundam quasstio-
+            <lb ed="#P" n="79"/>nem jam explicatam vigilanter animadvertisti : sed
+            <lb ed="#P" n="80"/>videre debuisti etiam istam tertiam jam solutam.
+            <lb ed="#P" n="81"/>Propterea quippe tibi videri dixeras, dari non de-
+            <lb ed="#P" n="82"/>buisse liberum voluntatis arbitrium, quod eo quisque
+            <lb ed="#P" n="83"/>peccat. Cui sententise tuae cum ego intulissem, recte
+            <lb ed="#P" n="84"/>fieri non posse, nisi eodemlibero voluntatisarbitrio (a),
+            <lb ed="#P" n="85"/>atque ad id potius hoc Deum dedisse asseverarem ;
+            <lb ed="#P" n="86"/>respondisti liberam voluntatem ita nobis dari de-
+            <lb ed="#P" n="87"/>buisse, ut justitia data est, qua nemo nisi recte pot-
+            <lb ed="#P" n="88"/>est uti. Quie responsio tua in tantos circuitus disputa-
+            <lb ed="#P" n="89"/>tionis nos ire compulit, quibus tibi probaremus et
+            <lb ed="#P" n="90"/>majora et minora bona non esse nisi ex Deo. Quod
+            <lb ed="#P" n="91"/>non tam dilucidc ostendi posset, nisi prius adversus
+            <lb ed="#P" n="92"/>opiniones impiaestultitia, qua dicit insipiens in corde
+            <lb ed="#P" n="93"/>suo, Non est Deus (Psal. xur, 1), qualiscumque de re
+            <lb ed="#P" n="94"/>tanta pro modulo nostro inita ratio, eodem ipso Deo
+            <lb ed="#P" n="95"/>in tam periculoso itinere nobis opitulante, in aliquid
+            <lb ed="#P" n="96"/>manifestum intenderetur. Quae duo tamen, id est,
+            <lb ed="#P" n="97"/>Deum esse, et omnia bona ex ipso esse, quanquam
+            <lb ed="#P" n="98"/>inconcnssa fide etiam antea tenerentur, sic tamen tra-
+            <lb ed="#P" n="99"/>ctata sunt, ut hoc quoque tertium, inter bona esse
+            <lb ed="#P" n="100"/>numerandam liberam voluntatem, manifestissime ap-
+            <lb ed="#P" n="101"/>pareat.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3747" n="48">
+            <lb ed="#P" n="102"/>Jam enim superiore disputatione patefactum
+            <lb ed="#P" n="103"/>est, constititque inter nos, naturam corporis inferiore
+            <lb ed="#P" n="104"/>gradu esse quam animi naturam, ac per hoc animum
+            <lb ed="#P" n="105"/>majus bonum esse quam corpus. Si ergo in corporis
+            <lb ed="#P" n="106"/>bonis invenimus aliqua quibus non recte uti homo
+            <lb ed="#P" n="107"/>possit, nec tamen propterea dicimus non ea dari de-
+            <lb ed="#P" n="108"/>buisse, quoniam esse confitemur bona ; quid mirum
+            <lb ed="#P" n="109"/>si et in animo sunt quaedam bona, quibus etiam non
+            <lb ed="#P" n="110"/>recte uti possimus, sed quia bona sunt, non potuerunt
+            <lb ed="#P" n="111"/>dari nisi ab illo a quo sunt omnia bona? Vides enim
+            <lb ed="#P" n="112"/>quantum boni desit corpori cui desunt manus, et ta-
+            <lb ed="#P" n="113"/>men manibus male utitur qui eis operatur vel seva
+            <lb ed="#P" n="114"/>vel turpia. Sine pedibus aliquem si aspiceres, fatere-
+            <lb ed="#P" n="115"/>ris deesse integritati corporis plurimum bonum ; et
+            <lb ed="#P" n="116"/>tamen eum qui ad nocendum cuipiam, vel seipsum
+            <lb ed="#P" n="117"/>dehonestandum pedibus uteretur, male uti pedibus
+            <pb ed="#L" n="634"/>
+            <cb ed="#P" n="a"/>
+            <!--1267-->
+            <lb ed="#P" n="1"/>non negares. Oculis hanc lucem videmus, formas-
+            <lb ed="#P" n="2"/>que internoscimus corporum ; idque et speciosissi-
+            <lb ed="#P" n="3"/>mum est in nostro corpore, unde in fastigio quodam
+            <lb ed="#P" n="4"/>dignitatis heec membra locata sunt; et ad salutem
+            <lb ed="#P" n="5"/>tuendam, multaque alia vite commoda refert usus
+            <lb ed="#P" n="6"/>oculorum: ocnlis tamen plerique pleraque agunt tur-
+            <lb ed="#P" n="7"/>piter, et eos militare cogunt Et vides quan-
+            <lb ed="#P" n="8"/>tum bonum desit in facie, si oculi desint: cum au-
+            <lb ed="#P" n="9"/>tem adsunt, quis hos dedit, nisi bonorum omnium
+            <lb ed="#P" n="10"/>largitor Deus? Quemadmodum ergo ista probas in
+            <lb ed="#P" n="11"/>corpore, et non intuens eos qui male his utuntur,
+            <lb ed="#P" n="12"/>laudas illum qui haec dedit bona : sic liberam volun-
+            <lb ed="#P" n="13"/>tatem sine qua nemo potest recte vivere, oportet et
+            <lb ed="#P" n="14"/>bonum, et divinitus datum, et potius eos damnandos
+            <lb ed="#P" n="15"/>qui hoc bono male utuntar, quam eum qui dederit
+            <lb ed="#P" n="16"/>dare non debuisse fatearis.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3825" n="49">
+            <lb ed="#P" n="17"/>E. Prius ergo vellem ut mihi probares aliquod
+            <lb ed="#P" n="18"/>bonum esse liberam voluntatem, et ego concederem
+            <lb ed="#P" n="19"/>Deum illam dedisse nobis, quia fateor ex Deo omnia
+            <lb ed="#P" n="20"/>bona esse. A. Itane tandem non probavi tibi tanto mo-
+            <lb ed="#P" n="21"/>limine superioris disputationis, cum omnem speciem
+            <lb ed="#P" n="22"/>formamque corporis a summa omnium rerum forma,
+            <lb ed="#P" n="23"/>id est a veritate, subsistere fatereris, et bonum esse
+            <lb ed="#P" n="24"/>concederes ? Nam et capillos nostros numeratos esse,
+            <lb ed="#P" n="25"/>ipsa in Evangelio loquitur Veritas (Matth. x, 30). De
+            <lb ed="#P" n="26"/>numeri autem summitate, et a fine usque ad finem
+            <lb ed="#P" n="27"/>pertendente potentia, quae locati fuerimus, excidit tibi?
+            <lb ed="#P" n="28"/>Quae igitur ista est tanta perversitas, capillos nostros
+            <lb ed="#P" n="29"/>quamvis inter exigua et omnino abjectissima, tamen
+            <lb ed="#P" n="30"/>inter bona numerare, nec invenire cui auctori tri-
+            <lb ed="#P" n="31"/>Inantur nisi bonorum omnium conditori Deo, quia et
+            <lb ed="#P" n="32"/>maxima et minima bona ab illo sunt, a quo est omne
+            <lb ed="#P" n="33"/>bonum ; et dubitare de libera voluntate, sine qua
+            <lb ed="#P" n="34"/>recte vivi non posse concedunt, etiam qui pessime
+            <lb ed="#P" n="35"/>vivunt? Et certe nunc responde, quaeso, quid tibi me-
+            <lb ed="#P" n="36"/>lius esse videatur in nobis, sine quo recte vivi potest,
+            <lb ed="#P" n="37"/>an sine quo recte vivi non potest. E. Jamjam parce,
+            <lb ed="#P" n="38"/>quaeso ; pudet caecitatis. Quis enim ambigat id longe
+            <lb ed="#P" n="39"/>esse praestantius, sine quo recta vita nulla est? A. Jam
+            <lb ed="#P" n="40"/>ergo tu negabis luscum hominem recte posse vivere?
+            <lb ed="#P" n="41"/>E. Absit tam immanis amentia. A. Cum ergo in cor-
+            <lb ed="#P" n="42"/>pore oculum concedas esse aliquod bonum, quo
+            <lb ed="#P" n="43"/>amisso tamen ad recte virendum non impeditur; vo-
+            <lb ed="#P" n="44"/>luntas libera tibi videbitur nullum bonum, sine qua
+            <lb ed="#P" n="45"/>recte nemo vivit?
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3891" n="50">
+            <lb ed="#P" n="46"/>Intueris enim justitiam, qua nemo male utitur:
+            <lb ed="#P" n="47"/>Heec inter summa bona quae in ipso sunt homine nu-
+            <lb ed="#P" n="48"/>meratur, omnesque virtutes animi quibus ipsa recta
+            <lb ed="#P" n="49"/>vita et honesta constat. Nam neque prudentia, neque
+            <lb ed="#P" n="50"/>fortitudine, neque temperantia male quis stitur: in
+            <lb ed="#P" n="51"/>his enim omnibus, sicut in ipsa etiam quam tu com-
+            <lb ed="#P" n="52"/>memorasti justitia, recta ratio viget, sine qua virtutes
+            <lb ed="#P" n="53"/>esse non possunt. Recta autem ratione male uti nemo
+            <lb ed="#P" n="54"/>potest.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e3914">
+          <head xml:id="aldx7s-x1ez62-Hd1e3916">Caput 19</head>
+          <p xml:id="aldx7s-x1ez62-d1e3918">
+            <lb ed="#P" n="55"/>CAPUT XIX. — Bona magna, minima, et media. In
+            <lb ed="#P" n="56"/>mediis censetur libertas.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3925" n="50b">
+            <lb ed="#P" n="57"/>Ista ergo magna bona sunt : sed meminisse te opor-
+            <lb ed="#P" n="58"/>tet, non solum magna, sed etiam minima bona non
+            <lb ed="#P" n="59"/>esse posse, nisi ab illo a quosunt omnia bona, hoc est
+            <cb ed="#P" n="b"/>
+            <lb ed="#P" n="60"/>Deo. Id enim superior disputatio persuasit, cui toe:
+            <lb ed="#P" n="61"/>tamque leetus assensus es. Virtutes igitur quibus re
+            <lb ed="#P" n="62"/>vivitur, magna bonasunt : species autem quorumliba
+            <lb ed="#P" n="63"/>corporum, sine qi^us recte vivi potest, minimabou
+            <lb ed="#P" n="64"/>sunt : potentia vero animi sine quibus recte vivi na
+            <lb ed="#P" n="65"/>potest, media bona sunt. Virtutibus nemo male ulitu:
+            <lb ed="#P" n="66"/>caeteris autem bonis, id est, mediis et minimis, nonse
+            <lb ed="#P" n="67"/>lum bene, sed etiam male quisque uti potest. Etió
+            <lb ed="#P" n="68"/>virtute nemo male utitur, quia opus virtutis est bon
+            <lb ed="#P" n="69"/>usus istorum, quibus etiam non bene uti possumes
+            <lb ed="#P" n="70"/>Nemo autem bene utendo male utitur.(Q uare abundasta
+            <lb ed="#P" n="71"/>et magnitudo bonitatis Dei non solum magna, sed etiaa
+            <lb ed="#P" n="72"/>media et minima bona esse praestitit. Magis laudmh
+            <lb ed="#P" n="73"/>est bonitas ejus in magnis quam in mediis, et mags
+            <lb ed="#P" n="74"/>in mediis quam in minimis bonis: sed magis in omi-
+            <lb ed="#P" n="75"/>bus quam si non omnia tribuisset.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e3971" n="51">
+            <lb ed="#P" n="76"/>E. Assentior. Sed illud me movet, quoniam ie
+            <lb ed="#P" n="77"/>libera voluntate quaestio est, et videmnus ipsam bem
+            <lb ed="#P" n="78"/>uti caeteris vel non bene, quomodo et ipsa inter il
+            <lb ed="#P" n="79"/>quibus utimurnumeranda sit. A. Quomodo omniaque
+            <lb ed="#P" n="80"/>ad scientiam cognoscimus, ratione cognoscimus, &amp;
+            <lb ed="#P" n="81"/>tamen etiam ipsa ratio illa numeratur que n-
+            <lb ed="#P" n="82"/>tione cognoscimus. Àn oblitus es, cum quaereremu
+            <lb ed="#P" n="83"/>quae ratione cognoscantur, confessum te fuisse etan
+            <lb ed="#P" n="84"/>ratienem ratione cognosci? Noli ergo mirari si cates
+            <lb ed="#P" n="85"/>per liberam voluntatem utimur, etiam ipsa libera v-
+            <lb ed="#P" n="86"/>luntate per eam ipsam ati nos posse; ut quodammole
+            <lb ed="#P" n="87"/>se ipse utatur voluntas quae utitur caeteris, sicut se-
+            <lb ed="#P" n="88"/>ipsam cognoscit ratio, quae cognoscit et ceetera. Nam
+            <lb ed="#P" n="89"/>et memoria non solum ceetera omnia, quae memiri-
+            <lb ed="#P" n="90"/>mus comprehendit ; sedetiam quod non obliviscimu
+            <lb ed="#P" n="91"/>nos habere memoriam, ipsa se memoria quodammods
+            <lb ed="#P" n="92"/>tenet in nobis, quae non solum aliorum, sed etiam
+            <lb ed="#P" n="93"/>sui meminit, vel potius nos et caetera et ipsam pe
+            <lb ed="#P" n="94"/>ipsam meminimus.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e4015" n="52">
+            <lb ed="#P" n="95"/>Voluntas ergo quae medium bonum est, cumin
+            <lb ed="#P" n="96"/>haeret incommutabili bono, eique communi non pro-
+            <lb ed="#P" n="97"/>prio, sicuti est illa de qua multum locuti sumus, e
+            <lb ed="#P" n="98"/>nihil digne diximus, veritas; tenet homo beatam vi-
+            <lb ed="#P" n="99"/>tam: eaque ipsa vita beata, id est snimi affectio in-
+            <lb ed="#P" n="100"/>haerentis incommutabili bono, proprium et primom
+            <lb ed="#P" n="101"/>est hominis bonum. In eo sunt etiam virtutes omnes,
+            <lb ed="#P" n="102"/>quibus male uti nemo potest. Nam haec quamvis m-
+            <lb ed="#P" n="103"/>gna in homine et prima sint, propria tamen ess
+            <lb ed="#P" n="104"/>uninscujusque hominis, nou communia, satis inteli-
+            <lb ed="#P" n="105"/>gitur. Veritate enim atque sapientia, quae communis
+            <lb ed="#P" n="106"/>est omnibus, omnes sapientes et beati fiunt, inhe-
+            <lb ed="#P" n="107"/>rendo illi. Beatitudine autem alterius hominis non fit
+            <lb ed="#P" n="108"/>alter beatus ; quia et cum eum imitatur ut sit, inde
+            <lb ed="#P" n="109"/>appetit beatus fieri unde illum factum videt, illa sci-
+            <lb ed="#P" n="110"/>licet incommutabili communique veritate. Neque
+            <lb ed="#P" n="111"/>prudentia cujusquam fit prudens alius, aut fortis for-
+            <lb ed="#P" n="112"/>titudine, aut temperans temperantia, aut justus justitia
+            <lb ed="#P" n="113"/>hominis alterius quisquam efficitur; sed coaptand
+            <lb ed="#P" n="114"/>animum illi incommutabilibus regulis luminibusque
+            <lb ed="#P" n="115"/>virtutum, quae incorruptibiliter vivunt in ipsa veritate
+            <lb ed="#P" n="116"/>sapientiaque communi, quibus et ille coaptavit et fixit
+            <lb ed="#P" n="117"/>animum, quem istis virtutibus praditum sibi ad imi-
+            <lb ed="#P" n="118"/>tandum proposuit.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e4071" n="53">
+            <pb ed="#L" n="635"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P" n="1"/>Voluntas ergo adhaerens communi atque incom-
+            <lb ed="#P" n="2"/>mutabili bono, impetrat prima et magna hominis
+            <lb ed="#P" n="3"/>bona, cum ipsa sit medium quoddam bonum. Volun-
+            <lb ed="#P" n="4"/>tas autem aversa ab incommutabili et communi bono,
+            <lb ed="#P" n="5"/>et conversa ad proprium bonum, aut ad exterius, aut
+            <lb ed="#P" n="6"/>ad inferius, peccat. Ad proprium convertitur, cum
+            <lb ed="#P" n="7"/>suae potestatis vult esse; ad exterius, cum aliorum
+            <lb ed="#P" n="8"/>propria, vel quaecumque ad se non pertinent, cogo-
+            <lb ed="#P" n="9"/>scere studet; ad inferius, cum voluptatem corporis
+            <lb ed="#P" n="10"/>diligit: atque ita homo superbus, et curiosus, et la-
+            <lb ed="#P" n="11"/>scivus effectus, excipitur ab alia vita, quae in compa-
+            <lb ed="#P" n="12"/>ratione superioris vitae mors est; quae tamen regitur
+            <lb ed="#P" n="13"/>administratione divinae providentie, quae congruis se-
+            <lb ed="#P" n="14"/>dibus ordinat ómnia, et pro meritis sua cuique dis-
+            <lb ed="#P" n="15"/>tribuit. Ita fit ut neque illa bona qua a peccantibus
+            <lb ed="#P" n="16"/>appetuntur, ullo modo mala sint, neque ipsa voluntas
+            <lb ed="#P" n="17"/>libera, quam in bonis quibusdam mediis numerandam
+            <lb ed="#P" n="18"/>esse comperimus ; sed malum sit aversio ejus ab in-
+            <lb ed="#P" n="19"/>commutabili bono, et conversio ad mutabilia bona:
+            <lb ed="#P" n="20"/>quae tamen aversio atque conversio, quoniam non co-
+            <lb ed="#P" n="21"/>gitur, sed est voluntaria, digna et justa eam miseriee
+            <lb ed="#P" n="22"/>poena subsequitur.
+          </p>
+        </div>
+        <div xml:id="aldx7s-x1ez62-Dd1e4127">
+          <head xml:id="aldx7s-x1ez62-Hd1e4129">Caput 20</head>
+          <p xml:id="aldx7s-x1ez62-d1e4131">
+            <lb ed="#P" n="23"/>CAPUT XX. — Ex Deo non est motus ille, quo vo-
+            <lb ed="#P" n="24"/>luntas ab incommutabili bono avertitur.
+          </p>
+          <p xml:id="aldx7s-x1ez62-d1e4138" n="54">
+            <lb ed="#P" n="25"/>Sed tu fortasse quaesiturus es, quoniam movetur
+            <lb ed="#P" n="26"/>voluntas cum se avertit ab incommutabili bono ad
+            <lb ed="#P" n="27"/>mutabile bonums, unde ei iste motus existat ; qui pro-
+            <lb ed="#P" n="28"/>fecto malus est, tametsi voluntas libera, quia sine illa
+            <lb ed="#P" n="29"/>nec recte vivi potest, in bonis numeranda sit. Si
+            <lb ed="#P" n="30"/>enim motus iste, id est aversio voluntatis a Domino
+            <lb ed="#P" n="31"/>Deo, sine dubitatione peccatum est, num possumus
+            <lb ed="#P" n="32"/>auctorem peccati Deum dicere? Non erit ergo iste
+            <lb ed="#P" n="33"/>motus ex Deo. Unde igitur erit? Ita quaerenti tibi, si
+            <lb ed="#P" n="34"/>respondeam nescire me, fortasse eris tristior: sed ta-
+            <lb ed="#P" n="35"/>men vera responderim. Sciri enim non potest qnod
+            <lb ed="#P" n="36"/>nihil est. Tu tantum pietatem inconcussam tene, ut
+            <lb ed="#P" n="37"/>nullum tibi bonum vel sentienti, vel intelligenti, vel
+            <lb ed="#P" n="38"/>quoquo modo cogitanti occurrat quod non sit ex Deo.
+            <lb ed="#P" n="39"/>Ita enim nulla natura occurrit quae non sit ex Deo.
+            <cb ed="#P" n="b"/>
+            <!--1210-->
+            <lb ed="#P" n="40"/>Omnem quippe rem ubi mensuram et numerum et
+            <lb ed="#P" n="41"/>ordinem videris, Deo artifici tribuere ne cuncteris.
+            <lb ed="#P" n="42"/>Unde autem ista penitus detraxeris, nihil omnino re-
+            <lb ed="#P" n="43"/>manebit : quia etsi remanserit aliqua formae alicujus
+            <lb ed="#P" n="44"/>inchoatio, ubi neque mensuram neque numerum ne-
+            <lb ed="#P" n="45"/>que ordinem invenias, quia ubicumque ista sunt,
+            <lb ed="#P" n="46"/>forma perfecta est; oportet auferas etiam ipsam in-
+            <lb ed="#P" n="47"/>chootionem formae, quae tanquam materies ad perti-
+            <lb ed="#P" n="48"/>ciendum subjacere videtur artifici. Si enim formae
+            <lb ed="#P" n="49"/>perfectio bonum est, nonnullum jam bonum est et
+            <lb ed="#P" n="50"/>formae inchoatio. Ita, detracto penitus omni bono,
+            <lb ed="#P" n="51"/>non quidem nonnibhil, sed omnino nihil remanebit t.
+            <lb ed="#P" n="52"/>Omne autem bonum ex Deo: nulla ergo natura est
+            <lb ed="#P" n="53"/>quae non sit ex Deo. Motus ergo ille aversionis, quod
+            <lb ed="#P" n="54"/>fatemur esse peccatum, quoniam defectivus motus est,
+            <lb ed="#P" n="55"/>omnis autem defectus ex nihilo est, vide quo perti-
+            <lb ed="#P" n="56"/>neat, et ad Deum non pertinere ne dubites *. Qui ta-
+            <lb ed="#P" n="57"/>men defectus quoniam est voluntarius, in nostra est
+            <lb ed="#P" n="58"/>positus potestate. Si enim times illum, oportet ut no-
+            <lb ed="#P" n="59"/>lis; si autem nolis, non erit. Quid ergo securius quam
+            <lb ed="#P" n="60"/>esse in ea vita, ubi non possit tibi invenire quod non
+            <lb ed="#P" n="61"/>vis ? Sed quoniam non sicut homo sponte cecidit, ita
+            <lb ed="#P" n="62"/>etiam [sponte surgere potest ; porrectam nobis desu-
+            <lb ed="#P" n="63"/>per dexteram Dei, id est Dominum nostrum Jesum
+            <lb ed="#P" n="64"/>Christum, fide firma teneamus (a), et exspectemus
+            <lb ed="#P" n="65"/>certa spe, et charitate ardenti desideremus. Si quid
+            <lb ed="#P" n="66"/>autemdeorigine peccati diligentius querendum adhuc
+            <lb ed="#P" n="67"/>putas (nam omnino ego jam opus esse non arbitror):
+            <lb ed="#P" n="68"/>si quid tamen paotas, in aliam disputationem differen-
+            <lb ed="#P" n="69"/>dum est. E. Sequor sane voluntatem tuam, ut in tem-
+            <lb ed="#P" n="70"/>pus aliud, quod binc moverit, differamus. Nam illud
+            <lb ed="#P" n="71"/>tibi non concesserim, ut satis jam inde quaesitum
+            <lb ed="#P" n="72"/>putes.
+          </p>
+        </div>
+      </div>
+      
+    </body>
+  </text>
+</TEI>
